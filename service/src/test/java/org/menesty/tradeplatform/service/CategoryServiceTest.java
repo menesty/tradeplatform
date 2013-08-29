@@ -14,6 +14,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -49,12 +50,12 @@ public class CategoryServiceTest {
     @Test
     public void testLoadByCatalog() {
         generateCategory(company, catalog, null, 4);
-        List<Category> rootCategories = categoryService.getRoot(company, catalog);
+        List<Category> rootCategories = categoryService.getChildrenByCatalog(company, catalog);
         Assert.assertEquals(4, rootCategories.size());
         for (Category root : rootCategories) {
             generateCategory(company, catalog, root, 4);
 
-            List<Category> childrens = categoryService.getChildrens(company, root);
+            List<Category> childrens = categoryService.getChildren(company, catalog, root);
             assertEquals(4, childrens.size());
         }
 
@@ -71,6 +72,26 @@ public class CategoryServiceTest {
 
         category = categoryService.loadById(category.getId());
         assertTrue(category.hasChildren());
+    }
+
+    @Test
+    public void testCatalogHasChildrenDelete() {
+        Category category = new Category();
+        category.setCompany(company);
+        category.setName("Category Root Child Delete");
+        category = categoryService.save(category);
+
+        generateCategory(company, null, category, 1);
+
+        Category child = categoryService.getChildren(company, category).get(0);
+        categoryService.delete(child);
+
+        child =  categoryService.loadById(child.getId());
+        assertTrue(child.isDeleted());
+
+        category = categoryService.loadById(category.getId());
+        assertFalse(category.hasChildren());
+
     }
 
     private void generateCategory(Company company, Catalog catalog, Category parent, int count) {

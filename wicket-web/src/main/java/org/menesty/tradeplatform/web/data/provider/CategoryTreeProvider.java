@@ -23,13 +23,13 @@ public class CategoryTreeProvider implements ITreeProvider<Category> {
 
 
     public CategoryTreeProvider(Catalog catalog) {
-        catalogModel = EntityModelUtil.get(catalog, CatalogService.class);
+        catalogModel = EntityModelUtil.getCompoundModel(catalog, CatalogService.class);
     }
 
 
     @Override
     public Iterator<Category> getRoots() {
-        return getService().getRoot(SecureAuthenticatedSession.get().getCompany(), catalogModel == null ? null : catalogModel.getObject()).iterator();
+        return getService().getChildrenByCatalog(SecureAuthenticatedSession.get().getCompany(), catalogModel.getObject()).iterator();
     }
 
     @Override
@@ -39,12 +39,12 @@ public class CategoryTreeProvider implements ITreeProvider<Category> {
 
     @Override
     public Iterator<Category> getChildren(Category node) {
-        return getService().getChildrens(SecureAuthenticatedSession.get().getCompany(), node).iterator();
+        return getService().getChildren(SecureAuthenticatedSession.get().getCompany(), catalogModel.getObject(), node).iterator();
     }
 
     @Override
     public IModel<Category> model(Category object) {
-        return EntityModelUtil.get(object, CategoryService.class);
+        return EntityModelUtil.getCompoundModel(object, CategoryService.class);
     }
 
     protected CategoryService getService() {

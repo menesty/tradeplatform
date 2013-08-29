@@ -2,9 +2,10 @@ package org.menesty.tradeplatform.service.impl;
 
 import com.google.common.collect.Lists;
 import com.mysema.query.BooleanBuilder;
-import com.mysema.query.types.path.BooleanPath;
-import org.menesty.tradeplatform.persistent.domain.*;
-import org.menesty.tradeplatform.persistent.repository.BaseRepository;
+import org.menesty.tradeplatform.persistent.domain.Catalog;
+import org.menesty.tradeplatform.persistent.domain.Category;
+import org.menesty.tradeplatform.persistent.domain.Company;
+import org.menesty.tradeplatform.persistent.domain.QCategory;
 import org.menesty.tradeplatform.persistent.repository.CategoryRepository;
 import org.menesty.tradeplatform.persistent.repository.CompanyEntityRepository;
 import org.menesty.tradeplatform.service.CategoryService;
@@ -28,41 +29,33 @@ public class CategoryServiceIml extends CompanyEntityServiceImpl<Category, QCate
     private CategoryRepository categoryRepository;
 
     @Override
-    public List<Category> getChildrens(Company company, Category parent) {
+    public List<Category> getChildren(Company company, Catalog catalog, Category parent) {
         BooleanBuilder builder = new BooleanBuilder();
 
         builder.and(QCategory.category.deleted.isFalse());
-        builder.and(QCategory.category.parent.eq(parent));
-        builder.and(this.<QCompany>getFieldPath("company").id.eq(company.getId()));
+        builder.and(QCategory.category.company.id.eq(company.getId()));
 
-        return Lists.newArrayList(categoryRepository.findAll(builder));
-    }
-
-    @Override
-    public List<Category> getRoot(Company company, Catalog catalog) {
-        BooleanBuilder builder = new BooleanBuilder();
-
-        builder.and(QCategory.category.deleted.isFalse());
-        builder.and(QCategory.category.parent.isNull());
-        builder.and(this.<QCompany>getFieldPath("company").id.eq(company.getId()));
+        if (parent == null)
+            builder.and(QCategory.category.parent.isNull());
+        else builder.and(QCategory.category.parent.id.eq(parent.getId()));
         if (catalog == null)
-            builder.and(this.<QCatalog>getFieldPath("catalog").isNull());
+            builder.and(QCategory.category.catalog.isNull());
         else
-            builder.and(this.<QCatalog>getFieldPath("catalog").eq(catalog));
+            builder.and(QCategory.category.catalog.id.eq(catalog.getId()));
 
         return Lists.newArrayList(categoryRepository.findAll(builder));
     }
 
     @Override
-    public List<Category> getRoot(Company company) {
-        BooleanBuilder builder = new BooleanBuilder();
-
-        builder.and(QCategory.category.deleted.isFalse());
-        builder.and(QCategory.category.parent.isNull());
-        builder.and(this.<QCompany>getFieldPath("company").id.eq(company.getId()));
-
-        return Lists.newArrayList(categoryRepository.findAll(builder));
+    public List<Category> getChildren(Company company, Category parent) {
+        return getChildren(company, null, parent);
     }
+
+    @Override
+    public List<Category> getChildrenByCatalog(Company company, Catalog catalog) {
+        return getChildren(company, catalog, null);
+    }
+
 
     @Override
     protected CompanyEntityRepository<Category> getRepository() {
@@ -75,5 +68,15 @@ public class CategoryServiceIml extends CompanyEntityServiceImpl<Category, QCate
             if (category.getParent() != null)
                 categoryRepository.updateHasChildren(category.getParent().getId(), true);
         return super.save(category);
+    }
+
+
+    @Override
+    public void delete(Category category, boolean soft) {
+        super.delete(category, soft);
+
+        Category parent = categoryRepository.findByParent(category.getId());
+        if (parent != null && categoryRepository.hasChildren(parent.getId()) == 0)
+            categoryRepository.updateHasChildren(parent.getId(), false);
     }
 }

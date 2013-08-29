@@ -1,6 +1,8 @@
 package org.menesty.tradeplatform.web.util;
 
+import org.apache.wicket.model.AbstractReadOnlyModel;
 import org.apache.wicket.model.CompoundPropertyModel;
+import org.apache.wicket.model.IModel;
 import org.menesty.tradeplatform.persistent.domain.Identifiable;
 import org.menesty.tradeplatform.service.BaseService;
 import org.menesty.tradeplatform.web.PlatformApplication;
@@ -13,8 +15,13 @@ import org.menesty.tradeplatform.web.data.model.EntityLoadableDetachableModel;
  */
 public class EntityModelUtil {
 
-    public static <T extends Identifiable, S extends BaseService<T>> CompoundPropertyModel<T> get(T entity, final Class<S> service) {
-        if (entity == null) return null;
+    public static <T extends Identifiable, S extends BaseService<T>> IModel<T> getCompoundModel(T entity, final Class<S> service) {
+        if (entity == null) return new AbstractReadOnlyModel<T>(){
+            @Override
+            public T getObject() {
+                return null;
+            }
+        };
         if (entity.getId() != null)
             return new CompoundPropertyModel<>(new EntityLoadableDetachableModel<T>(entity) {
                 @Override

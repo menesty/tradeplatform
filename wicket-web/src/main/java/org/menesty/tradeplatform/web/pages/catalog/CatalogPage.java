@@ -1,6 +1,5 @@
 package org.menesty.tradeplatform.web.pages.catalog;
 
-import org.apache.wicket.model.CompoundPropertyModel;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import org.apache.wicket.spring.injection.annot.SpringBean;
 import org.menesty.tradeplatform.persistent.domain.Catalog;
@@ -49,7 +48,7 @@ public class CatalogPage extends BaseLayout {
                     catalog = new Catalog();
                     catalog.setCompany(SecureAuthenticatedSession.get().getCompany());
                 }
-                add(new CatalogManagePanel<Catalog>("view", EntityModelUtil.get(catalog, CatalogService.class)) {
+                add(new CatalogManagePanel<Catalog>("view", EntityModelUtil.getCompoundModel(catalog, CatalogService.class)) {
                     @Override
                     public void onSave(Catalog entity) {
                         catalogService.save(entity);

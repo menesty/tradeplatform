@@ -15,10 +15,9 @@ import java.util.List;
  */
 public interface CategoryService extends CompanyEntityService<Category> {
 
-    List<Category> getChildrens(Company company, Category parent);
+    List<Category> getChildren(Company company, Catalog catalog, Category parent);
 
-    List<Category> getRoot(Company company);
+    List<Category> getChildren(Company company, Category parent);
 
-    List<Category> getRoot(Company company, Catalog catalog);
-
+    List<Category> getChildrenByCatalog(Company company, Catalog catalog);
 }
