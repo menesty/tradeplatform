@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org" lang="en">
+<body>
+<wicket:extend>
+    <div>
+        <div wicket:id="feedback" class="well"></div>
+    </div>
+    <div class="row">
+
+        <div class="col-lg-4 col-lg-offset-4">
+            <div class="head clearfix">
+                <div class="isw-documents"></div>
+                <h1>Sign In</h1>
+            </div>
+            <div class="block-fluid">
+                <form class="form-horizontal" wicket:id="loginForm">
+                    <div class="row-form clearfix" style="border-top: 0px none;">
+                        <div class="col-lg-3">Email :</div>
+                        <div class="col-lg-8">
+                            <input type="email" class="form-control" id="inputEmail"
+                                   placeholder="Email" wicket:id="username"/>
+                        </div>
+                    </div>
+
+                    <div class="row-form clearfix">
+                        <div class="col-lg-3">Password:</div>
+                        <div class="col-lg-8">
+                            <input type="password" class="form-control" id="inputPassword"
+                                   placeholder="Password"
+                                   wicket:id="password"/>
+                        </div>
+                    </div>
+                    <div class="footer tar">
+                        <button class="btn btn-primary">Sign In</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</wicket:extend>
+</body>
+</html>
+
+
+

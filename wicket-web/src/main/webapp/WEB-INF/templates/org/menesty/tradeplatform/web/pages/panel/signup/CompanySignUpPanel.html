@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org" lang="en">
+<body>
+<wicket:panel>
+    <h2>Company Registration</h2>
+    <div class="panel">
+        <div>
+            <div wicket:id="feedback" class="well"></div>
+        </div>
+
+
+        <form wicket:id="form" class="form-horizontal">
+
+            <div class="form-group">
+                <label for="companyName" class="col-lg-2 control-label">Company Name</label>
+
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="companyName" placeholder="Company Name"
+                           wicket:id="companyName"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="companyKey" class="col-lg-2 control-label">Company Key</label>
+
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="companyKey" placeholder="Company Key"
+                           wicket:id="companyKey"/>
+                    <span class="help-block">Short key without space only english letters.</span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label for="inputEmail" class="col-lg-2 control-label">Email/Login</label>
+
+                <div class="col-lg-10">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email" wicket:id="email"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+
+                <div class="col-lg-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password"
+                           wicket:id="password"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="repeatPassword" class="col-lg-2 control-label">Repeat Password</label>
+
+                <div class="col-lg-10">
+                    <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password"
+                           wicket:id="repeatPassword"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                    <button type="button" class="btn btn-default" wicket:id="submit-button">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</wicket:panel>
+</body>
+</html>

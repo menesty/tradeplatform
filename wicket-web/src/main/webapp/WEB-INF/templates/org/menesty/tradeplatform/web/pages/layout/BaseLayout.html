@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <a href="index.html" class="logo"><img title="Trade Platform" alt="Trade Platform" src="img/logo.png"></a>
+        <!--<ul class="header_menu">
+            <li class="list_icon"><a href="#">&nbsp;</a></li>
+            <li class="settings_icon">
+                <a class="link_themeSettings" href="#">&nbsp;</a>
+
+                <div class="popup" id="themeSettings">
+                    <div class="head clearfix">
+                        <div class="arrow"></div>
+                        <span class="isw-settings"></span>
+                        <span class="name">Theme settings</span>
+                    </div>
+                    <div class="body settings">
+                        <div class="row-fluid">
+                            <div class="span3"><strong>Style:</strong></div>
+                            <div class="span9">
+                                <a data-style="" title="" class="styleExample tip active"
+                                   data-original-title="Default style">&nbsp;</a>
+                                <a data-style="silver" title="" class="styleExample silver tip"
+                                   data-original-title="Silver style">&nbsp;</a>
+                                <a data-style="dark" title="" class="styleExample dark tip"
+                                   data-original-title="Dark style">&nbsp;</a>
+                                <a data-style="marble" title="" class="styleExample marble tip"
+                                   data-original-title="Marble style">&nbsp;</a>
+                                <a data-style="red" title="" class="styleExample red tip"
+                                   data-original-title="Red style">&nbsp;</a>
+                                <a data-style="green" title="" class="styleExample green tip"
+                                   data-original-title="Green style">&nbsp;</a>
+                                <a data-style="lime" title="" class="styleExample lime tip"
+                                   data-original-title="Lime style">&nbsp;</a>
+                                <a data-style="purple" title="" class="styleExample purple tip"
+                                   data-original-title="Purple style">&nbsp;</a>
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span3"><strong>Background:</strong></div>
+                            <div class="span9">
+                                <a data-style="" title="" class="bgExample tip active" data-original-title="Default">
+                                    &nbsp;</a>
+                                <a data-style="cube" title="" class="bgExample bgCube tip" data-original-title="Cubes">
+                                    &nbsp;</a>
+                                <a data-style="hline" title="" class="bgExample bghLine tip"
+                                   data-original-title="Horizontal line">&nbsp;</a>
+                                <a data-style="vline" title="" class="bgExample bgvLine tip"
+                                   data-original-title="Vertical line">&nbsp;</a>
+                                <a data-style="dots" title="" class="bgExample bgDots tip" data-original-title="Dots">
+                                    &nbsp;</a>
+                                <a data-style="crosshatch" title="" class="bgExample bgCrosshatch tip"
+                                   data-original-title="Crosshatch">&nbsp;</a>
+                                <a data-style="bcrosshatch" title="" class="bgExample bgbCrosshatch tip"
+                                   data-original-title="Big crosshatch">&nbsp;</a>
+                                <a data-style="grid" title="" class="bgExample bgGrid tip" data-original-title="Grid">
+                                    &nbsp;</a>
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span3"><strong>Fixed layout:</strong></div>
+                            <div class="span9">
+                                <div class="checker"><span><input type="checkbox" value="1"
+                                                                  name="settings_fixed"></span></div>
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span3"><strong>Hide menu:</strong></div>
+                            <div class="span9">
+                                <div class="checker"><span><input type="checkbox" value="1" name="settings_menu"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <button type="button" class="btn link_themeSettings">Close</button>
+                    </div>
+                </div>
+
+            </li>
+        </ul>-->
+    </div>
+
+    <div class="content">
+        <div class="breadLine" wicket:id="breadcrumbContainer">
+
+            <ul class="breadcrumb">
+                <li><a href="#">Simple Admin</a></li>
+                <li class="active">Tables</li>
+            </ul>
+
+            <ul class="buttons">
+                <li>
+                    <a class="link_bcPopupList" href="#"><span class="icon-user"></span><span
+                            class="text">Users list</span></a>
+
+                    <div class="popup" id="bcPopupList">
+                        <div class="head clearfix">
+                            <div class="arrow"></div>
+                            <span class="isw-users"></span>
+                            <span class="name">List users</span>
+                        </div>
+                        <div class="body-fluid users">
+
+                            <div class="item clearfix">
+                                <div class="image"><a href="#"><img width="32" src="img/users/aqvatarius_s.jpg"></a>
+                                </div>
+                                <div class="info">
+                                    <a class="name" href="#">Aqvatarius</a>
+                                    <span>online</span>
+                                </div>
+                            </div>
+
+                            <div class="item clearfix">
+                                <div class="image"><a href="#"><img width="32" src="img/users/olga_s.jpg"></a></div>
+                                <div class="info">
+                                    <a class="name" href="#">Olga</a>
+                                    <span>online</span>
+                                </div>
+                            </div>
+
+                            <div class="item clearfix">
+                                <div class="image"><a href="#"><img width="32" src="img/users/alexey_s.jpg"></a></div>
+                                <div class="info">
+                                    <a class="name" href="#">Alexey</a>
+                                    <span>online</span>
+                                </div>
+                            </div>
+
+                            <div class="item clearfix">
+                                <div class="image"><a href="#"><img width="32" src="img/users/dmitry_s.jpg"></a></div>
+                                <div class="info">
+                                    <a class="name" href="#">Dmitry</a>
+                                    <span>online</span>
+                                </div>
+                            </div>
+
+                            <div class="item clearfix">
+                                <div class="image"><a href="#"><img width="32" src="img/users/helen_s.jpg"></a></div>
+                                <div class="info">
+                                    <a class="name" href="#">Helen</a>
+                                </div>
+                            </div>
+
+                            <div class="item clearfix">
+                                <div class="image"><a href="#"><img width="32" src="img/users/alexander_s.jpg"></a>
+                                </div>
+                                <div class="info">
+                                    <a class="name" href="#">Alexander</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="footer">
+                            <button type="button" class="btn">Add new</button>
+                            <button type="button" class="btn btn-danger link_bcPopupList">Close</button>
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <a class="link_bcPopupSearch" href="#"><span class="icon-search"></span><span
+                            class="text">Search</span></a>
+
+                    <div class="popup" id="bcPopupSearch">
+                        <div class="head clearfix">
+                            <div class="arrow"></div>
+                            <span class="isw-zoom"></span>
+                            <span class="name">Search</span>
+                        </div>
+                        <div class="body search">
+                            <input type="text" name="search" placeholder="Some text for search...">
+                        </div>
+                        <div class="footer">
+                            <button type="button" class="btn">Search</button>
+                            <button type="button" class="btn btn-danger link_bcPopupSearch">Close</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="menu"></div>
+        <div class="workplace">
+            <wicket:child/>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
