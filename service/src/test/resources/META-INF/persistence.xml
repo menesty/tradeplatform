@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="persistenceUnit" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>org.menesty.tradeplatform.persistent.domain.security.User</class>
+        <class>org.menesty.tradeplatform.persistent.domain.Company</class>
+        <class>org.menesty.tradeplatform.persistent.domain.Attachment</class>
+        <class>org.menesty.tradeplatform.persistent.domain.Catalog</class>
+        <class>org.menesty.tradeplatform.persistent.domain.Category</class>
+        <class>org.menesty.tradeplatform.persistent.domain.Product</class>
+        <class>org.menesty.tradeplatform.persistent.domain.ProductItem</class>
+        <class>org.menesty.tradeplatform.persistent.domain.Site</class>
+
+
+        <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+            <property name="hibernate.ejb.naming_strategy" value="org.hibernate.cfg.ImprovedNamingStrategy"/>
+            <property name="hibernate.connection.charSet" value="UTF-8"/>
+
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.cache.use_second_level_cache" value="true" />
+            <property name="hibernate.generate_statistics" value="true" />
+        </properties>
+
+    </persistence-unit>
+
+</persistence>

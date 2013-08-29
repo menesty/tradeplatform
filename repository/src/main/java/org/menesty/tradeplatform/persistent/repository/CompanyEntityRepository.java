@@ -2,6 +2,7 @@ package org.menesty.tradeplatform.persistent.repository;
 
 import org.menesty.tradeplatform.persistent.domain.CompanyEntity;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.repository.NoRepositoryBean;
 
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * Date: 7/6/13
  * Time: 9:05 PM
  */
+@NoRepositoryBean
 public interface CompanyEntityRepository<Entity extends CompanyEntity> extends BaseRepository<Entity> {
 
     List<Entity> findByCompanyId(Long companyId, Pageable pageable);

@@ -68,4 +68,12 @@ public class CategoryServiceIml extends CompanyEntityServiceImpl<Category, QCate
     protected CompanyEntityRepository<Category> getRepository() {
         return categoryRepository;
     }
+
+    @Override
+    public Category save(Category category) {
+        if (category.getId() == null || category.getId() == 0)
+            if (category.getParent() != null)
+                categoryRepository.updateHasChildren(category.getParent().getId(), true);
+        return super.save(category);
+    }
 }

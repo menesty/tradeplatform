@@ -31,16 +31,12 @@ public class Category extends CompanyEntity {
         return children;
     }
 
-    public void setChildren(boolean children) {
-        this.children = children;
-    }
-
-    private boolean children;
+    private boolean children = false;
 
     @OneToMany
     private Set<Product> products = new HashSet<Product>();
 
-    private boolean visible;
+    private boolean visible = true;
 
     public Catalog getCatalog() {
         return catalog;
