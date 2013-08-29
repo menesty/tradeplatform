@@ -10,8 +10,23 @@
     <artifactId>repository</artifactId>
     <packaging>jar</packaging>
 
+
     <name>repository</name>
     <url>http://maven.apache.org</url>
+    <repositories>
+        <repository>
+            <id>repo</id>
+            <name>repo</name>
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>ignore</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <url>file://${project.basedir}/repo</url>
+        </repository>
+    </repositories>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
