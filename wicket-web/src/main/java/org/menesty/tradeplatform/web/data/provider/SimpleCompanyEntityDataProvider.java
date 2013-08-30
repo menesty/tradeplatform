@@ -1,7 +1,9 @@
 package org.menesty.tradeplatform.web.data.provider;
 
 import org.menesty.tradeplatform.persistent.domain.CompanyEntity;
+import org.menesty.tradeplatform.service.BaseService;
 import org.menesty.tradeplatform.service.CompanyEntityService;
+import org.menesty.tradeplatform.web.PlatformApplication;
 import org.menesty.tradeplatform.web.data.model.PageableImpl;
 
 import java.util.Iterator;
@@ -22,15 +24,16 @@ public abstract class SimpleCompanyEntityDataProvider<Entity extends CompanyEnti
 
     @Override
     public Iterator<Entity> iterator(long first, long count) {
-        return getService().loadByCompany(companyId, new PageableImpl(first, count)).iterator();
+        return getService(getServiceClass()).loadByCompany(companyId, new PageableImpl(first, count)).iterator();
     }
 
     @Override
     public long size() {
-        return getService().countByCompany(companyId);
+        return this.getService(getServiceClass()).countByCompany(companyId);
     }
 
 
     @Override
-    public abstract CompanyEntityService<Entity> getService();
+    public abstract  Class<? extends CompanyEntityService<Entity>> getServiceClass();
+
 }

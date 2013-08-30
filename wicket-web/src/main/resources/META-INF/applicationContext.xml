@@ -12,7 +12,7 @@
     <import resource="applicationContext-security.xml"/>
     <import resource="database.xml" />
     <context:annotation-config />
-    <jpa:repositories base-package="org.menesty.tradeplatform.persistent.repository"/>
+    <jpa:repositories base-package="org.menesty.tradeplatform.persistent.repository" factory-class="org.menesty.tradeplatform.persistent.repository.impl.PlatformRepositoryFactoryBean"/>
     <context:component-scan base-package="org.menesty.tradeplatform.service" />
     <context:component-scan base-package="org.menesty.tradeplatform.web.service.security"/>
     <bean class="org.menesty.tradeplatform.web.service.security.PlatformMessageDigestPasswordEncoder"

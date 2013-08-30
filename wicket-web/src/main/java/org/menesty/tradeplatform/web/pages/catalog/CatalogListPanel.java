@@ -24,9 +24,10 @@ public class CatalogListPanel extends Panel {
 
 
         DataView<Catalog> list = new DataView<Catalog>("list", new SimpleCompanyEntityDataProvider<Catalog>(SecureAuthenticatedSession.get().getCompanyId()) {
+
             @Override
-            public CompanyEntityService<Catalog> getService() {
-                return PlatformApplication.get().getService(CatalogService.class);
+            public Class<CatalogService> getServiceClass() {
+                return CatalogService.class;
             }
         }) {
             @Override

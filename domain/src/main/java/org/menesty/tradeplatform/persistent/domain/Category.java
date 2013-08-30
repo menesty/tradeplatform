@@ -15,6 +15,17 @@ import java.util.Set;
  */
 @Entity
 public class Category extends CompanyEntity {
+
+    public Category(){
+
+    }
+
+    public Category(Company company, Catalog catalog, Category parent){
+        setCompany(company);
+        this.catalog = catalog;
+        this.parent = parent;
+    }
+
     @NotNull
     @Size(max = 255)
     private String name;
@@ -34,7 +45,7 @@ public class Category extends CompanyEntity {
     private boolean children = false;
 
     @OneToMany
-    private Set<Product> products = new HashSet<Product>();
+    private Set<Product> products = new HashSet<>();
 
     private boolean visible = true;
 

@@ -3,10 +3,7 @@ package org.menesty.tradeplatform.service.impl;
 import com.google.common.collect.Lists;
 import com.mysema.query.BooleanBuilder;
 import com.mysema.query.types.Predicate;
-import org.menesty.tradeplatform.persistent.domain.Catalog;
-import org.menesty.tradeplatform.persistent.domain.Category;
-import org.menesty.tradeplatform.persistent.domain.Company;
-import org.menesty.tradeplatform.persistent.domain.QCategory;
+import org.menesty.tradeplatform.persistent.domain.*;
 import org.menesty.tradeplatform.persistent.repository.CategoryRepository;
 import org.menesty.tradeplatform.persistent.repository.CompanyEntityRepository;
 import org.menesty.tradeplatform.service.CategoryService;
@@ -31,33 +28,48 @@ public class CategoryServiceIml extends CompanyEntityServiceImpl<Category, QCate
     private CategoryRepository categoryRepository;
 
     @Override
+    public List<Category> getChildren(Long companyId, Long catalogId, Long parentId, Pageable pageable) {
+        return categoryRepository.find(createPredicate(companyId, catalogId, parentId), pageable);
+    }
+
+    @Override
     public List<Category> getChildren(Company company, Catalog catalog, Category parent, Pageable pageable) {
-        return categoryRepository.find(createPredicate(company, catalog, parent), pageable);
+        return getChildren(getId(company), getId(catalog), getId(parent), pageable);
+    }
+
+    @Override
+    public long count(Long companyId, Long catalogId, Long parentId){
+        return categoryRepository.count(createPredicate(companyId, catalogId, parentId));
     }
 
     @Override
     public long count(Company company, Catalog catalog, Category parent){
-        return categoryRepository.count(createPredicate(company, catalog, parent));
+        return count(getId(company), getId(catalog), getId(parent));
     }
 
     @Override
     public List<Category> getChildren(Company company, Catalog catalog, Category parent) {
-        return Lists.newArrayList(categoryRepository.findAll(createPredicate(company, catalog, parent)));
+        return Lists.newArrayList(categoryRepository.findAll(createPredicate(getId(company), getId(catalog), getId(parent))));
     }
 
-    private Predicate createPredicate(Company company, Catalog catalog, Category parent){
+    private Long getId(Identifiable entity){
+        if(entity != null) return entity.getId();
+        return null;
+    }
+
+    private Predicate createPredicate(Long companyId, Long catalogId, Long parentId){
         BooleanBuilder builder = new BooleanBuilder();
 
         builder.and(QCategory.category.deleted.isFalse());
-        builder.and(QCategory.category.company.id.eq(company.getId()));
+        builder.and(QCategory.category.company.id.eq(companyId));
 
-        if (parent == null)
+        if (parentId == null)
             builder.and(QCategory.category.parent.isNull());
-        else builder.and(QCategory.category.parent.id.eq(parent.getId()));
-        if (catalog == null)
+        else builder.and(QCategory.category.parent.id.eq(parentId));
+        if (catalogId == null)
             builder.and(QCategory.category.catalog.isNull());
         else
-            builder.and(QCategory.category.catalog.id.eq(catalog.getId()));
+            builder.and(QCategory.category.catalog.id.eq(catalogId));
         return builder;
     }
 

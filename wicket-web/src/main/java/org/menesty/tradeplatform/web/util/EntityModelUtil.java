@@ -3,10 +3,14 @@ package org.menesty.tradeplatform.web.util;
 import org.apache.wicket.model.AbstractReadOnlyModel;
 import org.apache.wicket.model.CompoundPropertyModel;
 import org.apache.wicket.model.IModel;
+import org.menesty.tradeplatform.persistent.domain.Catalog;
 import org.menesty.tradeplatform.persistent.domain.Identifiable;
 import org.menesty.tradeplatform.service.BaseService;
 import org.menesty.tradeplatform.web.PlatformApplication;
 import org.menesty.tradeplatform.web.data.model.EntityLoadableDetachableModel;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * User: Menesty
@@ -31,5 +35,13 @@ public class EntityModelUtil {
             });
 
         return new CompoundPropertyModel<>(entity);
+    }
+
+    public static <T extends Identifiable, S extends BaseService<T>> List<IModel<T>> getCompoundModel(List<T> list, final Class<S> service) {
+        List<IModel<T>> result = new ArrayList<>(list.size());
+        for(T entity: list){
+            result.add(getCompoundModel(entity, service));
+        }
+        return result;
     }
 }

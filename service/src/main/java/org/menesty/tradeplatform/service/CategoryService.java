@@ -16,7 +16,11 @@ import java.util.List;
  */
 public interface CategoryService extends CompanyEntityService<Category> {
 
+    List<Category> getChildren(Long companyId, Long catalogId, Long parentId, Pageable pageable);
+
     List<Category> getChildren(Company company, Catalog catalog, Category parent, Pageable pageable);
+
+    long count(Long companyId, Long catalogId, Long parentId);
 
     long count(Company company, Catalog catalog, Category parent);
 
