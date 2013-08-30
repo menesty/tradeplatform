@@ -2,6 +2,7 @@ package org.menesty.tradeplatform.service.impl;
 
 import com.google.common.collect.Lists;
 import com.mysema.query.BooleanBuilder;
+import com.mysema.query.types.Predicate;
 import org.menesty.tradeplatform.persistent.domain.Catalog;
 import org.menesty.tradeplatform.persistent.domain.Category;
 import org.menesty.tradeplatform.persistent.domain.Company;
@@ -10,6 +11,7 @@ import org.menesty.tradeplatform.persistent.repository.CategoryRepository;
 import org.menesty.tradeplatform.persistent.repository.CompanyEntityRepository;
 import org.menesty.tradeplatform.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -29,7 +31,21 @@ public class CategoryServiceIml extends CompanyEntityServiceImpl<Category, QCate
     private CategoryRepository categoryRepository;
 
     @Override
+    public List<Category> getChildren(Company company, Catalog catalog, Category parent, Pageable pageable) {
+        return categoryRepository.find(createPredicate(company, catalog, parent), pageable);
+    }
+
+    @Override
+    public long count(Company company, Catalog catalog, Category parent){
+        return categoryRepository.count(createPredicate(company, catalog, parent));
+    }
+
+    @Override
     public List<Category> getChildren(Company company, Catalog catalog, Category parent) {
+        return Lists.newArrayList(categoryRepository.findAll(createPredicate(company, catalog, parent)));
+    }
+
+    private Predicate createPredicate(Company company, Catalog catalog, Category parent){
         BooleanBuilder builder = new BooleanBuilder();
 
         builder.and(QCategory.category.deleted.isFalse());
@@ -42,8 +58,7 @@ public class CategoryServiceIml extends CompanyEntityServiceImpl<Category, QCate
             builder.and(QCategory.category.catalog.isNull());
         else
             builder.and(QCategory.category.catalog.id.eq(catalog.getId()));
-
-        return Lists.newArrayList(categoryRepository.findAll(builder));
+        return builder;
     }
 
     @Override

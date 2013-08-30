@@ -3,6 +3,7 @@ package org.menesty.tradeplatform.service;
 import org.menesty.tradeplatform.persistent.domain.Catalog;
 import org.menesty.tradeplatform.persistent.domain.Category;
 import org.menesty.tradeplatform.persistent.domain.Company;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
@@ -14,6 +15,10 @@ import java.util.List;
  * To change this template use Filee | Settings | File Templates.
  */
 public interface CategoryService extends CompanyEntityService<Category> {
+
+    List<Category> getChildren(Company company, Catalog catalog, Category parent, Pageable pageable);
+
+    long count(Company company, Catalog catalog, Category parent);
 
     List<Category> getChildren(Company company, Catalog catalog, Category parent);
 

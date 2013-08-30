@@ -11,6 +11,6 @@
     <aop:aspectj-autoproxy/>
     <import resource="database.xml"/>
     <context:annotation-config/>
-    <jpa:repositories base-package="org.menesty.tradeplatform.persistent.repository"/>
+    <jpa:repositories base-package="org.menesty.tradeplatform.persistent.repository" factory-class="org.menesty.tradeplatform.persistent.repository.impl.PlatformRepositoryFactoryBean"/>
     <context:component-scan base-package="org.menesty.tradeplatform.service"/>
 </beans>
