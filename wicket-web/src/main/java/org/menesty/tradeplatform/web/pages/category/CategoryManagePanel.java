@@ -16,6 +16,7 @@ public abstract class CategoryManagePanel extends AbstractManagePanel<Category> 
 
     @Override
     protected void onInitialize() {
+        super.onInitialize();
         final FeedbackPanel feedback = createFeedbackPanel();
         add(feedback);
 

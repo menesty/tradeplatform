@@ -13,11 +13,27 @@ public class VisibleLabel extends Label {
 
     @Override
     public void onComponentTagBody(final MarkupStream markupStream, final ComponentTag openTag) {
+        Boolean value = getBooleanValue();
+        if (value != null)
+            replaceComponentTagBody(markupStream, openTag, value ? "visible" : "hidden");
+        else
+            super.onComponentTagBody(markupStream, openTag);
+    }
+
+    @Override
+    protected void onBeforeRender() {
+        Boolean value = getBooleanValue();
+        if (value != null) {
+            add(new AttributeAppender("class", value ? " label-success" : " label-default"));
+        }
+        super.onBeforeRender();
+    }
+
+    private Boolean getBooleanValue() {
         Object modelObject = getDefaultModelObject();
         if (modelObject != null && modelObject.getClass().isAssignableFrom(Boolean.class)) {
-            replaceComponentTagBody(markupStream, openTag, ((Boolean) modelObject) ? "visible" : "hidden");
-            add(new AttributeAppender("class", ((Boolean) modelObject) ? "label-success" : "label-default"));
-        } else
-            replaceComponentTagBody(markupStream, openTag, getDefaultModelObjectAsString());
+            return ((Boolean) modelObject);
+        }
+        return null;
     }
 }

@@ -2,8 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org">
 <body>
 <wicket:panel>
-    <a href="/catalogs/add" class="btn">Add</a>
-
         <div class="col-lg-12">
             <div class="head clearfix">
                 <div class="isw-grid"></div>
@@ -25,7 +23,7 @@
                     <tbody>
                     <tr wicket:id="list">
                         <td wicket:id="name"></td>
-                        <td wicket:id="visible"></td>
+                        <td><span wicket:id="visible" class="label "></span></td>
                         <td wicket:id="createdDate"></td>
                         <td wicket:id="updatedDate"></td>
                         <td>

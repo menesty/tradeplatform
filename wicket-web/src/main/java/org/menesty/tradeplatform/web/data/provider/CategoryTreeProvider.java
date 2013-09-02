@@ -4,7 +4,6 @@ import org.apache.wicket.extensions.markup.html.repeater.tree.ITreeProvider;
 import org.apache.wicket.model.IModel;
 import org.menesty.tradeplatform.persistent.domain.Catalog;
 import org.menesty.tradeplatform.persistent.domain.Category;
-import org.menesty.tradeplatform.persistent.domain.Company;
 import org.menesty.tradeplatform.service.CatalogService;
 import org.menesty.tradeplatform.service.CategoryService;
 import org.menesty.tradeplatform.web.PlatformApplication;
@@ -28,7 +27,7 @@ public class CategoryTreeProvider implements ITreeProvider<Category> {
     }
 
     public void setCatalog(IModel<Catalog> catalog) {
-        this.catalogModel = catalog;
+        this.catalogModel = catalog != null ? catalog : EntityModelUtil.getCompoundModel((Catalog) null, null);
     }
 
 

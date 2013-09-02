@@ -2,20 +2,13 @@ package org.menesty.tradeplatform.web.pages.category;
 
 import org.apache.wicket.Component;
 import org.apache.wicket.ajax.AjaxRequestTarget;
-import org.apache.wicket.ajax.form.AjaxFormChoiceComponentUpdatingBehavior;
 import org.apache.wicket.ajax.form.AjaxFormComponentUpdatingBehavior;
 import org.apache.wicket.ajax.markup.html.AjaxLink;
-import org.apache.wicket.ajax.markup.html.form.AjaxButton;
-import org.apache.wicket.extensions.markup.html.repeater.tree.DefaultNestedTree;
 import org.apache.wicket.extensions.markup.html.repeater.tree.ITreeProvider;
 import org.apache.wicket.extensions.markup.html.repeater.tree.NestedTree;
 import org.apache.wicket.extensions.markup.html.repeater.tree.content.Folder;
-import org.apache.wicket.markup.html.basic.Label;
-import org.apache.wicket.markup.html.form.ChoiceRenderer;
+import org.apache.wicket.markup.html.WebMarkupContainer;
 import org.apache.wicket.markup.html.form.DropDownChoice;
-import org.apache.wicket.markup.html.form.ListChoice;
-import org.apache.wicket.markup.repeater.Item;
-import org.apache.wicket.markup.repeater.data.DataView;
 import org.apache.wicket.model.IDetachable;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.LoadableDetachableModel;
@@ -31,7 +24,6 @@ import org.menesty.tradeplatform.web.MountPath;
 import org.menesty.tradeplatform.web.data.provider.CategoryListProvider;
 import org.menesty.tradeplatform.web.data.provider.CategoryTreeProvider;
 import org.menesty.tradeplatform.web.markup.html.CompaundChoiseRenderer;
-import org.menesty.tradeplatform.web.markup.html.VisibleLabel;
 import org.menesty.tradeplatform.web.pages.layout.BaseLayout;
 import org.menesty.tradeplatform.web.security.PlatformAuthorizeInstantiation;
 import org.menesty.tradeplatform.web.security.SecureAuthenticatedSession;
@@ -68,12 +60,21 @@ public class CategoryPage extends BaseLayout {
         final CategoryListProvider categoryListProvider = new CategoryListProvider(SecureAuthenticatedSession.get().getCompanyId(), null, null);
         final CategoryTreeProvider categoryTreeProvider = new CategoryTreeProvider(null);
         final CategoryListPanel list = new CategoryListPanel("categoryContainer", categoryListProvider);
+        final WebMarkupContainer cardPanel = new WebMarkupContainer("cardPanel");
+        cardPanel.setOutputMarkupId(true);
         list.setOutputMarkupId(true);
 
-        add(list);
+        cardPanel.add(list);
+        add(cardPanel);
 
 
         final SelectableTree<Category> treeComponent = new SelectableTree<Category>("tree", categoryTreeProvider) {
+            public void onSelect(AjaxRequestTarget target, IModel<Category> model){
+                categoryListProvider.setParent(model);
+                selectedCategory =  model;
+                target.add(list);
+
+            }
             public void onSelect(AjaxRequestTarget target, Category entity) {
                 categoryListProvider.setParent(entity);
                 target.add(list);
@@ -91,6 +92,7 @@ public class CategoryPage extends BaseLayout {
             @Override
             protected void onUpdate(AjaxRequestTarget target) {
                 categoryListProvider.setCatalog(selectedCatalog);
+                categoryListProvider.setParentId(null);
                 categoryTreeProvider.setCatalog(selectedCatalog);
                 target.add(list);
                 target.add(treeComponent);
@@ -104,18 +106,25 @@ public class CategoryPage extends BaseLayout {
         add(new AjaxLink<Void>("add") {
             @Override
             public void onClick(AjaxRequestTarget target) {
-                Category newCategory = new Category(SecureAuthenticatedSession.get().getCompany(), selectedCatalog.getObject(), selectedCategory.getObject());
-                addOrReplace(new CategoryManagePanel("categoryContainer", EntityModelUtil.getCompoundModel(newCategory, null)) {
+                Category newCategory = new Category(SecureAuthenticatedSession.get().getCompany(), getValue(selectedCatalog), getValue(selectedCategory));
+                cardPanel.addOrReplace(new CategoryManagePanel("categoryContainer", EntityModelUtil.getCompoundModel(newCategory, null)) {
                     @Override
                     public void onSave(AjaxRequestTarget target, Category entity) {
                         categoryService.save(entity);
                         treeComponent.expand(entity.getParent());
-                        target.add(list);
+                        cardPanel.addOrReplace(list);
+                        target.add(cardPanel);
                     }
                 });
+                target.add(cardPanel);
             }
-        });
+        }.setOutputMarkupId(true));
 
+    }
+
+    private <T> T getValue(IModel<T> model) {
+        if (model != null) return model.getObject();
+        return null;
     }
 
     class SelectableFolderContent implements IDetachable {

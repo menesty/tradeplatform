@@ -31,7 +31,12 @@ public class CategoryListProvider extends SimpleDataProvider<Category> {
     }
 
     public void setCatalog(IModel<Catalog> catalog) {
-        setCatalog(catalog.getObject());
+        setCatalog(catalog == null ? null : catalog.getObject());
+    }
+
+    public void setParent(IModel<Category> parent) {
+        if (parent != null) setParent(parent.getObject());
+        else setParentId(null);
     }
 
     public void setParent(Category parent) {
