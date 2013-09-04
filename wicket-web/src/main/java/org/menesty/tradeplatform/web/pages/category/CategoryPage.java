@@ -111,7 +111,7 @@ public class CategoryPage extends BaseLayout {
                     @Override
                     public void onSave(AjaxRequestTarget target, Category entity) {
                         categoryService.save(entity);
-                        treeComponent.expand(entity.getParent());
+                        treeComponent.updateBranch(entity.getParent(), target);
                         cardPanel.addOrReplace(list);
                         target.add(cardPanel);
                     }

@@ -1,5 +1,6 @@
 package org.menesty.tradeplatform.web.util;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.wicket.model.AbstractReadOnlyModel;
 import org.apache.wicket.model.CompoundPropertyModel;
 import org.apache.wicket.model.IModel;
@@ -27,12 +28,26 @@ public class EntityModelUtil {
             }
         };
         if (entity.getId() != null)
-            return new CompoundPropertyModel<>(new EntityLoadableDetachableModel<T>(entity) {
+            return new CompoundPropertyModel<T>(new EntityLoadableDetachableModel<T>(entity) {
                 @Override
                 protected T load() {
                     return PlatformApplication.get().getService(service).loadById(getId());
                 }
-            });
+
+            }){
+                @Override
+                public boolean equals(Object o) {
+                    if (this == o) return true;
+                    if (o == null || getClass() != o.getClass()) return false;
+                    CompoundPropertyModel<T> other = (CompoundPropertyModel<T>) o;
+                    return new EqualsBuilder().append(getObject().getId(), other.getObject().getId()).append(getObject().getVersion(), other.getObject().getVersion()).isEquals();
+                }
+
+                @Override
+                public int hashCode() {
+                    return getObject().getId().hashCode();
+                }
+            };
 
         return new CompoundPropertyModel<>(entity);
     }

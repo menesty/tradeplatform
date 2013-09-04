@@ -8,6 +8,7 @@ import org.apache.wicket.extensions.markup.html.repeater.tree.NestedTree;
 import org.apache.wicket.extensions.markup.html.repeater.tree.content.Folder;
 import org.apache.wicket.model.IDetachable;
 import org.apache.wicket.model.IModel;
+import org.apache.wicket.model.PropertyModel;
 
 public class SelectableTree<T> extends DefaultNestedTree<T> {
 
@@ -84,6 +85,11 @@ public class SelectableTree<T> extends DefaultNestedTree<T> {
                 @Override
                 protected boolean isSelected() {
                     return selectableFolderContent.isSelected(getModelObject());
+                }
+
+                protected IModel<?> newLabelModel(IModel<T> model)
+                {
+                    return new PropertyModel<>(model, "name");
                 }
             };
         }
