@@ -27,11 +27,11 @@
                         <td wicket:id="createdDate"></td>
                         <td wicket:id="updatedDate"></td>
                         <td>
-                            <a type="button" class="btn btn-default btn-xs">
-                                <span class="glyphicon glyphicon-pencil "></span>
-                            </a>
+                            <button type="button" class="btn btn-default btn-xs" wicket:id="editButton">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                            </button>
 
-                            <button type="button" class="btn btn-default btn-xs">
+                            <button type="button" class="btn btn-default btn-xs" wicket:id="deleteButton">
                                 <span class="glyphicon glyphicon-trash"></span>
                             </button>
 
@@ -42,7 +42,7 @@
 
 
                 <div class="tool-bar tool-bar-footer">
-                    <div class="row">
+                   <!-- <div class="row">
                         <div class="col-md-5" style="line-height:2.3;">Showing 1 to 10 of 57 entries</div>
                         <div class="col-md-7">
                             <ul class="pagination pagination-sm" style="float:right;">
@@ -55,7 +55,7 @@
                                 <li><a href="#">&raquo;</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>

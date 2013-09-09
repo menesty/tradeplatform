@@ -50,6 +50,12 @@ public class CategoryPage extends BaseLayout {
 
     private IModel<Category> selectedCategory;
 
+    private SelectableTree<Category> treeComponent;
+
+    private CategoryListPanel list;
+
+    private WebMarkupContainer cardPanel;
+
     public CategoryPage(PageParameters params) {
         super(params);
     }
@@ -59,8 +65,21 @@ public class CategoryPage extends BaseLayout {
         super.onInitialize();
         final CategoryListProvider categoryListProvider = new CategoryListProvider(SecureAuthenticatedSession.get().getCompanyId(), null, null);
         final CategoryTreeProvider categoryTreeProvider = new CategoryTreeProvider(null);
-        final CategoryListPanel list = new CategoryListPanel("categoryContainer", categoryListProvider);
-        final WebMarkupContainer cardPanel = new WebMarkupContainer("cardPanel");
+        list = new CategoryListPanel("categoryContainer", categoryListProvider) {
+            @Override
+            public void onEdit(AjaxRequestTarget target, IModel<Category> category) {
+                cardPanel.addOrReplace(getManagePanel(category));
+                target.add(cardPanel);
+            }
+            @Override
+            public void onDelete(AjaxRequestTarget target, IModel<Category> category){
+                categoryService.delete(category.getObject());
+                treeComponent.updateBranch(getValue(selectedCategory), target);
+                target.add(list);
+            }
+        };
+
+        cardPanel = new WebMarkupContainer("cardPanel");
         cardPanel.setOutputMarkupId(true);
         list.setOutputMarkupId(true);
 
@@ -68,13 +87,14 @@ public class CategoryPage extends BaseLayout {
         add(cardPanel);
 
 
-        final SelectableTree<Category> treeComponent = new SelectableTree<Category>("tree", categoryTreeProvider) {
-            public void onSelect(AjaxRequestTarget target, IModel<Category> model){
+        treeComponent = new SelectableTree<Category>("tree", categoryTreeProvider) {
+            public void onSelect(AjaxRequestTarget target, IModel<Category> model) {
                 categoryListProvider.setParent(model);
-                selectedCategory =  model;
+                selectedCategory = model;
                 target.add(list);
 
             }
+
             public void onSelect(AjaxRequestTarget target, Category entity) {
                 categoryListProvider.setParent(entity);
                 target.add(list);
@@ -107,15 +127,7 @@ public class CategoryPage extends BaseLayout {
             @Override
             public void onClick(AjaxRequestTarget target) {
                 Category newCategory = new Category(SecureAuthenticatedSession.get().getCompany(), getValue(selectedCatalog), getValue(selectedCategory));
-                cardPanel.addOrReplace(new CategoryManagePanel("categoryContainer", EntityModelUtil.getCompoundModel(newCategory, null)) {
-                    @Override
-                    public void onSave(AjaxRequestTarget target, Category entity) {
-                        categoryService.save(entity);
-                        treeComponent.updateBranch(entity.getParent(), target);
-                        cardPanel.addOrReplace(list);
-                        target.add(cardPanel);
-                    }
-                });
+                cardPanel.addOrReplace(getManagePanel(EntityModelUtil.getCompoundModel(newCategory, null)));
                 target.add(cardPanel);
             }
         }.setOutputMarkupId(true));
@@ -127,71 +139,23 @@ public class CategoryPage extends BaseLayout {
         return null;
     }
 
-    class SelectableFolderContent implements IDetachable {
 
-        private static final long serialVersionUID = 1L;
-
-        private ITreeProvider<Category> provider;
-
-        private IModel<Category> selected;
-
-        public SelectableFolderContent(ITreeProvider<Category> provider) {
-            this.provider = provider;
-        }
-
-        @Override
-        public void detach() {
-            if (selected != null) {
-                selected.detach();
-            }
-        }
-
-        protected boolean isSelected(Category category) {
-            IModel<Category> model = provider.model(category);
-
-            try {
-                return selected != null && selected.equals(model);
-            } finally {
-                model.detach();
-            }
-        }
-
-        protected void select(Category foo, NestedTree<Category> tree, final AjaxRequestTarget target) {
-            if (selected != null) {
-                tree.updateNode(selected.getObject(), target);
-
-                selected.detach();
-                selected = null;
+    private CategoryManagePanel getManagePanel(IModel<Category> category) {
+        return new CategoryManagePanel("categoryContainer", category) {
+            @Override
+            public void onSave(AjaxRequestTarget target, Category entity) {
+                categoryService.save(entity);
+                treeComponent.updateBranch(getValue(selectedCategory), target);
+                cardPanel.addOrReplace(list);
+                target.add(cardPanel);
             }
 
-            selected = provider.model(foo);
-
-            tree.updateNode(foo, target);
-        }
-
-        public Component newContentComponent(String id, final NestedTree<Category> tree, IModel<Category> model) {
-            return new Folder<Category>(id, tree, model) {
-                private static final long serialVersionUID = 1L;
-
-                /**
-                 * Always clickable.
-                 */
-                @Override
-                protected boolean isClickable() {
-                    return true;
-                }
-
-                @Override
-                protected void onClick(AjaxRequestTarget target) {
-                    SelectableFolderContent.this.select(getModelObject(), tree, target);
-                }
-
-                @Override
-                protected boolean isSelected() {
-                    return SelectableFolderContent.this.isSelected(getModelObject());
-                }
-            };
-        }
+            @Override
+            public void onCancel(AjaxRequestTarget target) {
+                cardPanel.addOrReplace(list);
+                target.add(cardPanel);
+            }
+        };
 
 
     }

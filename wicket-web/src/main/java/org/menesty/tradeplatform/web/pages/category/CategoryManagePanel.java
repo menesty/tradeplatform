@@ -27,5 +27,6 @@ public abstract class CategoryManagePanel extends AbstractManagePanel<Category> 
         editForm.add(new CheckBox("visible"));
 
         editForm.add(getSubmitButton(editForm, feedback));
+        editForm.add(createCancelButton());
     }
 }

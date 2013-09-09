@@ -1,6 +1,7 @@
 package org.menesty.tradeplatform.web.pages.panel;
 
 import org.apache.wicket.ajax.AjaxRequestTarget;
+import org.apache.wicket.ajax.markup.html.AjaxLink;
 import org.apache.wicket.ajax.markup.html.form.AjaxButton;
 import org.apache.wicket.markup.html.form.Form;
 import org.apache.wicket.markup.html.form.StatelessForm;
@@ -44,5 +45,17 @@ public abstract class AbstractManagePanel<T> extends Panel {
         };
     }
 
+    protected AjaxLink createCancelButton(){
+        return new AjaxLink("cancel-button") {
+
+            @Override
+            public void onClick(AjaxRequestTarget target) {
+                onCancel(target);
+            }
+        };
+    }
+
     public abstract void onSave(AjaxRequestTarget target, T entity);
+
+    public abstract void onCancel(AjaxRequestTarget target);
 }

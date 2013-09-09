@@ -5,32 +5,34 @@
     <div>
         <div wicket:id="feedback" class="well"></div>
     </div>
-    <div class="row">
-       <form wicket:id="form">
+    <div class="col-lg-12">
 
-           <div class="span12">
-               <div class="head clearfix">
-                   <div class="isw-documents"></div>
-                   <h1>Text fields</h1>
-               </div>
-               <div class="block-fluid">
 
-                   <div class="row-form clearfix">
-                       <div class="span3">Name:</div>
-                       <div class="span9"><input type="text" value="Catalog name" wicket:id="name" /></div>
-                   </div>
-                   <div class="row-form clearfix" >
-                       <div class="span3">Visible:</div>
-                       <div class="span9"><input type="checkbox" wicket:id="visible" /></div>
-                   </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="isw-documents"></div>
+                <h3 class="panel-title">Text fields</h3>
+            </div>
+            <div class="panel-body">
+                <form wicket:id="form">
+                    <div class="row-form clearfix">
+                        <div class="span3">Name:</div>
+                        <div class="span9"><input type="text" value="Catalog name" wicket:id="name"/></div>
+                    </div>
+                    <div class="row-form clearfix">
+                        <div class="span3">Visible:</div>
+                        <div class="span9"><input type="checkbox" wicket:id="visible"/></div>
+                    </div>
 
-                   <div class="footer tar">
-                       <button class="btn" wicket:id="submit-button">Submit</button>
-                   </div>
-               </div>
+                    <div class="footer tar">
+                        <button class="btn" wicket:id="submit-button">Submit</button>
+                        <button class="btn" wicket:id="cancel-button">Cancel</button>
+                    </div>
+                </form>
+            </div>
 
-           </div>
-       </form>
+        </div>
+
     </div>
 
 </wicket:panel>

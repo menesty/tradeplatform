@@ -55,6 +55,10 @@ public class CatalogPage extends BaseLayout {
                         catalogService.save(entity);
                         setResponsePage(CatalogPage.class);
                     }
+
+                    @Override
+                    public void onCancel(AjaxRequestTarget target) {
+                    }
                 });
                 break;
 

@@ -10,6 +10,7 @@ import org.menesty.tradeplatform.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
@@ -38,12 +39,12 @@ public class CategoryServiceIml extends CompanyEntityServiceImpl<Category, QCate
     }
 
     @Override
-    public long count(Long companyId, Long catalogId, Long parentId){
+    public long count(Long companyId, Long catalogId, Long parentId) {
         return categoryRepository.count(createPredicate(companyId, catalogId, parentId));
     }
 
     @Override
-    public long count(Company company, Catalog catalog, Category parent){
+    public long count(Company company, Catalog catalog, Category parent) {
         return count(getId(company), getId(catalog), getId(parent));
     }
 
@@ -52,12 +53,12 @@ public class CategoryServiceIml extends CompanyEntityServiceImpl<Category, QCate
         return Lists.newArrayList(categoryRepository.findAll(createPredicate(getId(company), getId(catalog), getId(parent))));
     }
 
-    private Long getId(Identifiable entity){
-        if(entity != null) return entity.getId();
+    private Long getId(Identifiable entity) {
+        if (entity != null) return entity.getId();
         return null;
     }
 
-    private Predicate createPredicate(Long companyId, Long catalogId, Long parentId){
+    private Predicate createPredicate(Long companyId, Long catalogId, Long parentId) {
         BooleanBuilder builder = new BooleanBuilder();
 
         builder.and(QCategory.category.deleted.isFalse());
@@ -90,6 +91,7 @@ public class CategoryServiceIml extends CompanyEntityServiceImpl<Category, QCate
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED)
     public Category save(Category category) {
         if (category.getId() == null || category.getId() == 0)
             if (category.getParent() != null)

@@ -40,7 +40,7 @@ public class EntityModelUtil {
                     if (this == o) return true;
                     if (o == null || getClass() != o.getClass()) return false;
                     CompoundPropertyModel<T> other = (CompoundPropertyModel<T>) o;
-                    return new EqualsBuilder().append(getObject().getId(), other.getObject().getId()).append(getObject().getVersion(), other.getObject().getVersion()).isEquals();
+                    return new EqualsBuilder().append(getObject().getId(), other.getObject().getId()).isEquals();
                 }
 
                 @Override
