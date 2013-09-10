@@ -23,14 +23,4 @@ public class CatalogServiceImpl extends CompanyEntityServiceImpl<Catalog, QCatal
         return catalogRepository;
     }
 
-
-    public static void main(String... arg) {
-        new CatalogServiceImpl().count();
-    }
-
-    @Override
-    public Catalog loadById(Long companyId, Long catalogId) {
-        if (catalogId == null || catalogId == null) return null;
-        return catalogRepository.findByCompanyIdAndId(companyId, catalogId);
-    }
 }

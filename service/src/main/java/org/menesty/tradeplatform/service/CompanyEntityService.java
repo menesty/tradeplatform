@@ -24,4 +24,6 @@ public interface CompanyEntityService<Entity extends CompanyEntity> extends Base
     List<Entity> loadByCompany(Company company);
 
     List<Entity> loadByCompany(Long companyId);
+
+    Entity loadById(Long companyId, Long catalogId);
 }

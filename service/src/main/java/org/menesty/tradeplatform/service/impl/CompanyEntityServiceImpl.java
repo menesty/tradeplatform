@@ -4,8 +4,9 @@ import com.google.common.collect.Lists;
 import com.mysema.query.BooleanBuilder;
 import com.mysema.query.types.path.BooleanPath;
 import com.mysema.query.types.path.EntityPathBase;
-import org.menesty.tradeplatform.persistent.domain.*;
-import org.menesty.tradeplatform.persistent.repository.BaseRepository;
+import org.menesty.tradeplatform.persistent.domain.Company;
+import org.menesty.tradeplatform.persistent.domain.CompanyEntity;
+import org.menesty.tradeplatform.persistent.domain.QCompany;
 import org.menesty.tradeplatform.persistent.repository.CompanyEntityRepository;
 import org.menesty.tradeplatform.service.CompanyEntityService;
 import org.springframework.data.domain.Pageable;
@@ -59,5 +60,11 @@ public abstract class CompanyEntityServiceImpl<Entity extends CompanyEntity, Q e
         builder.and(deleted.isFalse());
         builder.and(this.<QCompany>getFieldPath("company").id.eq(companyId));
         return Lists.newArrayList(getRepository().findAll(builder));
+    }
+
+    @Override
+    public Entity loadById(Long companyId, Long entityId) {
+        if (entityId == null || entityId == null) return null;
+        return getRepository().findByCompanyIdAndId(companyId, entityId);
     }
 }

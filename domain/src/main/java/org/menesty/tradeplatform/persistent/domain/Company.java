@@ -6,11 +6,9 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Menesty
  * Date: 4/30/13
  * Time: 7:08 AM
- * To change this template use File | Settings | File Templates.
  */
 @Entity
 public class Company extends Identifiable {

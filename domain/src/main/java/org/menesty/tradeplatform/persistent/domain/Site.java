@@ -6,11 +6,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Menesty
  * Date: 5/11/13
  * Time: 6:37 AM
- * To change this template use File | Settings | File Templates.
  */
 @Entity
 public class Site extends CompanyEntity {

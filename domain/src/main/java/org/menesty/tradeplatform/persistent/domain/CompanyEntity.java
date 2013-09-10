@@ -6,11 +6,9 @@ import javax.persistence.MappedSuperclass;
 import javax.validation.constraints.NotNull;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Menesty
  * Date: 4/30/13
  * Time: 7:09 AM
- * To change this template use File | Settings | File Templates.
  */
 @MappedSuperclass
 public class CompanyEntity extends Trackable {

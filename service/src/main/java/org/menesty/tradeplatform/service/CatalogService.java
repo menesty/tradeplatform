@@ -11,5 +11,5 @@ import org.menesty.tradeplatform.persistent.domain.Catalog;
  */
 public interface CatalogService extends CompanyEntityService<Catalog> {
 
-    Catalog loadById(Long companyId, Long catalogId);
+
 }

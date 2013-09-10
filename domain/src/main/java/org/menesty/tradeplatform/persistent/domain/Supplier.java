@@ -1,15 +1,11 @@
 package org.menesty.tradeplatform.persistent.domain;
 
 import javax.persistence.Entity;
+import javax.validation.constraints.NotNull;
 
-/**
- * User: Menesty
- * Date: 5/11/13
- * Time: 6:24 AM
- */
 @Entity
-public class Catalog extends CompanyEntity {
-
+public class Supplier extends CompanyEntity {
+    @NotNull
     private String name;
 
     public String getName() {

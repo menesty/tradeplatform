@@ -7,11 +7,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Menesty
  * Date: 4/30/13
  * Time: 6:23 AM
- * To change this template use File | Settings | File Templates.
  */
 @Entity
 public class Category extends CompanyEntity {
