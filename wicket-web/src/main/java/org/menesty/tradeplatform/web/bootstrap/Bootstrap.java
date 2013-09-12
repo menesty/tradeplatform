@@ -36,10 +36,13 @@ public class Bootstrap
     public static void renderHeadPlain(IHeaderResponse response)
     {
         response.render(JavaScriptHeaderItem.forReference(Bootstrap.plain()));
+        response.render(JavaScriptHeaderItem.forReference(bootBox));
     }
 
 
     private static final BootstrapResourceReference bootstrapPlain = new BootstrapResourceReference();
+
+    private static final BootBoxResourceReference  bootBox = new BootBoxResourceReference();
 
 
     public static final CssResourceReference BOOTSTRAP_CSS = new CssResourceReference(
@@ -67,5 +70,23 @@ public class Bootstrap
             return asList(jquery, stylesheet);
         }
     }
+    private static class BootBoxResourceReference extends JavaScriptResourceReference
+    {
+        private static final long serialVersionUID = 1L;
+
+        public BootBoxResourceReference()
+        {
+            super(Bootstrap.class, "js/plugin/bootbox.min.js");
+        }
+
+        @Override
+        public Iterable<? extends HeaderItem> getDependencies()
+        {
+            HeaderItem bootstrap = JavaScriptHeaderItem.forReference(bootstrapPlain);
+
+            return asList(bootstrap);
+        }
+    }
+
 
 }

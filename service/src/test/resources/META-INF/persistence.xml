@@ -10,6 +10,8 @@
         <class>org.menesty.tradeplatform.persistent.domain.Product</class>
         <class>org.menesty.tradeplatform.persistent.domain.ProductItem</class>
         <class>org.menesty.tradeplatform.persistent.domain.Site</class>
+        <class>org.menesty.tradeplatform.persistent.domain.SupplierProductItem</class>
+        <class>org.menesty.tradeplatform.persistent.domain.Supplier</class>
 
 
         <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>

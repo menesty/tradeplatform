@@ -5,11 +5,12 @@ import org.menesty.tradeplatform.persistent.domain.Supplier;
 import org.menesty.tradeplatform.persistent.repository.CompanyEntityRepository;
 import org.menesty.tradeplatform.persistent.repository.SupplierRepository;
 import org.menesty.tradeplatform.service.SupplierService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class SupplierServiceImpl extends CompanyEntityServiceImpl<Supplier, QSupplier> implements SupplierService {
-
+    @Autowired
     private SupplierRepository supplierRepository;
 
     @Override

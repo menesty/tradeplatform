@@ -3,14 +3,10 @@ package org.menesty.tradeplatform.web.pages.supplier;
 import org.apache.wicket.ajax.AjaxRequestTarget;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import org.apache.wicket.spring.injection.annot.SpringBean;
-import org.menesty.tradeplatform.persistent.domain.Catalog;
 import org.menesty.tradeplatform.persistent.domain.Supplier;
 import org.menesty.tradeplatform.persistent.domain.security.Authority;
-import org.menesty.tradeplatform.service.CatalogService;
 import org.menesty.tradeplatform.service.SupplierService;
 import org.menesty.tradeplatform.web.MountPath;
-import org.menesty.tradeplatform.web.pages.catalog.CatalogListPanel;
-import org.menesty.tradeplatform.web.pages.catalog.CatalogManagePanel;
 import org.menesty.tradeplatform.web.pages.layout.BaseLayout;
 import org.menesty.tradeplatform.web.security.PlatformAuthorizeInstantiation;
 import org.menesty.tradeplatform.web.security.SecureAuthenticatedSession;
@@ -29,7 +25,14 @@ public class SupplierPage extends BaseLayout{
         ActionType action = ActionType.get(parameters.get("action").toString(), ActionType.LIST);
         switch (action) {
             case LIST:
-                add(new SupplierListPanel("view"));
+                add(new SupplierListPanel("view") {
+
+                    @Override
+                    public void onDelete(AjaxRequestTarget target, Supplier supplier) {
+                        supplierService.delete(supplier);
+                        target.add(this);
+                    }
+                }.setOutputMarkupId(true));
                 break;
             case EDIT:
             case ADD:
@@ -53,5 +56,10 @@ public class SupplierPage extends BaseLayout{
                 break;
 
         }
+    }
+
+    @Override
+    public boolean isVersioned() {
+        return false;
     }
 }

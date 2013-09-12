@@ -3,7 +3,6 @@ package org.menesty.tradeplatform.persistent.domain;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToOne;
 import javax.validation.constraints.NotNull;
 
 @Entity
@@ -12,7 +11,7 @@ public class SupplierProductItem extends BaseProductItem {
     @ManyToOne(fetch = FetchType.LAZY)
     private Supplier supplier;
 
-    @OneToOne
+    @ManyToOne
     private ProductItem productItem;
 
     public ProductItem getProductItem() {
