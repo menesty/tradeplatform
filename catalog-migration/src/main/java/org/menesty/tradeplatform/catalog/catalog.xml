@@ -1,0 +1,50 @@
+<catalog>
+    <id></id>
+    <name></name>
+    <description></description>
+    <categories>
+        <category>
+            <id>1</id>
+            <name>Perfumes</name>
+        </category>
+    </categories>
+    <imageBase></imageBase>
+    <products>
+        <product>
+            <name>Diamant</name>
+            <category>1</category>
+            <items>
+                <item>
+                    <id>2892</id>
+                    <artNumber>DI600</artNumber>
+                    <name>Natural spray 200 ml</name>
+                    <price>57,00</price>
+                    <currency>usd</currency>
+                    <attributes>
+                        <atribute>
+                            <name>productType</name>
+                            <value>Eau de toilette 80% vol</value>
+                        </atribute>
+                        <stribute>
+                            <name>volume</name>
+                            <value>600 ml</value>
+                        </stribute>
+                        <atribute>
+                            <name>box</name>
+                            <value>spray</value>
+                        </atribute>
+                    </attributes>
+                    <images>
+                        <image></image>
+                    </images>
+                    <description>
+                        Bursting with dazzling mistery, Diamant leaves a luminous trail of desire behind all those who
+                        wear it. Diamant is a sweet-oriental, with mandarin, orange and pepper as top notes, balanced by
+                        rose,
+                        jasmin and plum as middle notes, against a background of vanilla, patchouli, musc and caramel.
+                    </description>
+                </item>
+            </items>
+        </product>
+    </products>
+</catalog>

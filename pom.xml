@@ -11,6 +11,7 @@
         <module>service</module>
         <module>javafx-ui</module>
         <module>wicket-web</module>
+        <module>catalog-migration</module>
     </modules>
     <name>TradePlatform Maven Webapp</name>
   <url>http://maven.apache.org</url>
