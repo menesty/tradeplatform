@@ -57,9 +57,4 @@ public class SupplierPage extends BaseLayout{
 
         }
     }
-
-    @Override
-    public boolean isVersioned() {
-        return false;
-    }
 }

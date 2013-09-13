@@ -14,7 +14,7 @@ import java.util.List;
 @NoRepositoryBean
 public interface CompanyEntityRepository<Entity extends CompanyEntity> extends BaseRepository<Entity> {
 
-    List<Entity> findByCompanyId(Long companyId, Pageable pageable);
+    List<Entity> findByCompanyIdAndDeletedFalse(Long companyId, Pageable pageable);
 
     Entity findByCompanyIdAndId(Long companyId, Long entityId);
 

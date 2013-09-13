@@ -30,7 +30,7 @@ public abstract class CompanyEntityServiceImpl<Entity extends CompanyEntity, Q e
 
     @Override
     public List<Entity> loadByCompany(long companyId, Pageable pageable) {
-        return getRepository().findByCompanyId(companyId, pageable);
+        return getRepository().findByCompanyIdAndDeletedFalse(companyId, pageable);
     }
 
     @Override
@@ -64,7 +64,7 @@ public abstract class CompanyEntityServiceImpl<Entity extends CompanyEntity, Q e
 
     @Override
     public Entity loadById(Long companyId, Long entityId) {
-        if (entityId == null || entityId == null) return null;
+        if (companyId == null || entityId == null) return null;
         return getRepository().findByCompanyIdAndId(companyId, entityId);
     }
 }
