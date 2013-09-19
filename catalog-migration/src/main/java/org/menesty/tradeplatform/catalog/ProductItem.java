@@ -1,11 +1,20 @@
 package org.menesty.tradeplatform.catalog;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.util.ArrayList;
 import java.util.List;
 
+@XmlRootElement(name = "item")
 public class ProductItem {
+
     private Long id;
+
     private String artNumber;
+
     private String name;
+
 
     private Double price;
 
@@ -13,9 +22,9 @@ public class ProductItem {
 
     private String description;
 
-    private List<Attribute> attributes;
+    private List<Attribute> attributes = new ArrayList<>();
 
-    private List<String> images;
+    private List<String> images = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -65,6 +74,8 @@ public class ProductItem {
         this.description = description;
     }
 
+    @XmlElementWrapper(name = "attributes")
+    @XmlElement(name = "attribute")
     public List<Attribute> getAttributes() {
         return attributes;
     }
@@ -77,6 +88,8 @@ public class ProductItem {
         return images;
     }
 
+    @XmlElementWrapper(name = "images")
+    @XmlElement(name = "image")
     public void setImages(List<String> images) {
         this.images = images;
     }

@@ -11,7 +11,9 @@ import java.util.List;
 
 @MappedSuperclass
 public abstract class BaseProductItem extends CompanyEntity {
-
+    public enum Currency {
+        EU, USD, UA
+    }
     private String name;
     @Digits(fraction = 2, integer = 8)
     @Column(precision = 10, scale = 2)
@@ -22,8 +24,18 @@ public abstract class BaseProductItem extends CompanyEntity {
 
     private String artNumber;
 
+    private Currency currency;
+
     @OneToMany
     private List<Attachment> attachments = new ArrayList<>();
+
+    public Currency getCurrency() {
+        return currency;
+    }
+
+    public void setCurrency(Currency currency) {
+        this.currency = currency;
+    }
 
     public String getName() {
         return name;

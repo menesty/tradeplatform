@@ -1,7 +1,9 @@
 package org.menesty.tradeplatform.catalog;
 
+import javax.xml.bind.annotation.XmlType;
 import java.util.List;
 
+@XmlType
 public class Category {
     private Long id;
 
