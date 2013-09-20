@@ -1,6 +1,7 @@
 package org.menesty.tradeplatform.catalog;
 
 import javax.xml.bind.annotation.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @XmlRootElement(name = "catalog")
@@ -11,12 +12,12 @@ public class Catalog {
 
     private String description;
 
-    private List<Category> categories;
+    private List<Category> categories = new ArrayList<>();
 
     private String imageBase;
 
 
-    private List<Product> products;
+    private List<Product> products = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -41,7 +42,8 @@ public class Catalog {
     public void setDescription(String description) {
         this.description = description;
     }
-
+    @XmlElementWrapper(name = "categories")
+    @XmlElement(name = "category")
     public List<Category> getCategories() {
         return categories;
     }

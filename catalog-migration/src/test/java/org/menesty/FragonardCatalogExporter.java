@@ -1,21 +1,17 @@
 package org.menesty;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.menesty.tradeplatform.catalog.Attribute;
-import org.menesty.tradeplatform.catalog.Catalog;
-import org.menesty.tradeplatform.catalog.Product;
-import org.menesty.tradeplatform.catalog.ProductItem;
+import org.menesty.tradeplatform.catalog.*;
+import org.menesty.tradeplatform.catalog.util.CatalogUtil;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -31,61 +27,43 @@ public class FragonardCatalogExporter {
 
     private static final String SITE_URL = "http://www.fragonard.com";
 
-    private static final String[] CATEGORIES_URL = new String[]{
-            "http://www.fragonard.com/parfums_grasse/perfumes-c-13.htm",
-            "http://www.fragonard.com/parfums_grasse/eaux-de-parfum-c-4.htm",
-            "http://www.fragonard.com/parfums_grasse/eaux-de-toilette-c-6.htm",
-            "http://www.fragonard.com/parfums_grasse/hommes-c-10.htm",
-            "http://www.fragonard.com/parfums_grasse/cosmetiques-c-3.htm",
-            "http://www.fragonard.com/parfums_grasse/savons-douche-c-16.htm",
-            "http://www.fragonard.com/parfums_grasse/senteurs-maison-c-17.htm",
-            "http://www.fragonard.com/parfums_grasse/coffrets-et-trousses-c-1.htm",
-            "http://www.fragonard.com/parfums_grasse/cadeaux-c-11.htm"
-    };
-
-    public static void main(String... arg) throws IOException, JAXBException {
-        Catalog catalog = new Catalog();
-        catalog.setName("fragonard");
-        catalog.setImageBase(SITE_URL);
+    public static void main(String... arg) throws Exception {
 
         FragonardCatalogExporter exporter = new FragonardCatalogExporter();
-        catalog.setProducts(exporter.parseCategoryPage(CATEGORIES_URL[0]));
-        //exporter.parseProductPage("http://www.fragonard.com/parfums_grasse/eaux-de-toilette/belle-cherie-c-231.htm");
-       /* String text = "var OProduct3184 = new Product('OProduct3184', {id:3184, has_option:false, productType:'Eau de toilette 80% vol'});\n" +
-                "if(document.getElementById(\"imggal_2000031840000\")) document.getElementById(\"imggal_2000031840000\").href = \"javascript:OProduct3184.get('3184');void(0);\";";
+        Catalog catalog = exporter.parseCatalog("http://www.fragonard.com/parfums_grasse/");
 
-        Pattern test = Pattern.compile("id:(\\d+).*?productType:'(.*?)'.*\\n+.*?getElementById\\(\"(.*?)\"\\)");
-        System.out.println(text);
-        Matcher m = test.matcher(text);
-        if(m.find()){
-            System.out.println(m.group(1));
-            System.out.println(m.group(2));
-            System.out.println(m.group(3));
+        OutputStream outputStream = new FileOutputStream("/Users/Menesty/development/workspace/tradeplatform/catalog-migration/src/main/resources/fragonard.xml");
+        CatalogUtil.exportCatalog(catalog, outputStream);
 
-        }*/
-
-
-
-        JAXBContext jaxbContext = JAXBContext.newInstance(Catalog.class);
-        Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
-
-        // for getting nice formatted output
-        jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-
-        //specify the location and name of xml file to be created
-
-        // Writing to XML file
-        // Writing to console
-        jaxbMarshaller.marshal(catalog, System.out);
     }
 
-    private List<Product> parseCategoryPage(String categoryUrl) throws IOException {
+    private Catalog parseCatalog(String catalogUrl) throws IOException {
+        Catalog catalog = new Catalog();
+        catalog.setName("Fragonard");
+        catalog.setImageBase(SITE_URL);
+        Document doc = Jsoup.connect(catalogUrl).get();
+
+        Elements categoriesEl = doc.select("ol#navMain a");
+        for (Element categoryEl : categoriesEl) {
+            Category category = new Category();
+            category.setName(categoryEl.text());
+            catalog.getCategories().add(category);
+            String categoryUrl = categoryEl.attr("href");
+            category.setId(getId(categoryUrl));
+            catalog.getProducts().addAll(parseCategoryPage(categoryUrl, category.getId()));
+        }
+        return catalog;
+
+    }
+
+    private List<Product> parseCategoryPage(String categoryUrl, Long categoryId) throws IOException {
         Document doc = Jsoup.connect(categoryUrl).get();
         Elements productEls = doc.select("#navMenu a");
         List<Product> products = new ArrayList<>();
 
         for (Element productEl : productEls) {
             Product product = new Product();
+            product.setCategoryId(categoryId);
             product.setName(productEl.text());
             String productUrl = productEl.attr("href");
             product.setId(getId(productUrl));
@@ -101,41 +79,45 @@ public class FragonardCatalogExporter {
         List<ProductItem> result = new ArrayList<>();
 
         Elements subProducts = doc.select("#categoryProducts .sub-product");
+
         for (Element subProduct : subProducts) {
-
-          /*  System.out.println(subProduct.html());
-            System.out.println("===============================");
-
-*/
             Elements elements = subProduct.children();
             ProductItem productItem = null;
+
             for (Element e : elements) {
                 if (e.tagName().equals("h2")) continue;
                 if (e.tagName().equals("script")) {
                     if (productItem != null) result.add(productItem);
+
                     productItem = new ProductItem();
                     String scriptContent = e.html().replaceAll("\\r\\n|\\r|\\n", "");
+
                     Matcher m = productScriptPattern.matcher(scriptContent);
                     m.find();
+
                     productItem.setId(Long.valueOf(m.group(1)));
                     productItem.getAttributes().add(new Attribute("type", m.group(2)));
 
                     Element image = doc.getElementById(m.group(3));
-                    if (image != null) {
+                    if (image != null)
                         productItem.getImages().add(image.child(0).attr("src"));
-                    }
+
                     productItem.setCurrency("eu");
                 }
-                if(e.tagName().equals("strong")){
+                if (e.tagName().equals("strong")) {
                     Matcher m = pricePattern.matcher(e.html());
                     m.find();
-                    productItem.setPrice(Double.valueOf(m.group().replace(",",".")));
+
+                    productItem.setPrice(Double.valueOf(m.group().replace(",", ".")));
                 }
-                if(e.tagName().equals("p")){
+                if (e.tagName().equals("p")) {
                     productItem.setName(e.select(".name").html());
+
                     Element ref = e.select(".ref").first();
+
                     Matcher m = artNumberPattern.matcher(ref.text());
                     m.find();
+
                     productItem.setArtNumber(m.group(1));
                 }
             }

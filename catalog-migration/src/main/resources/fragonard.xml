@@ -1,0 +1,3989 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog>
+    <categories>
+        <category>
+            <id>13</id>
+            <name>Parfums</name>
+        </category>
+        <category>
+            <id>4</id>
+            <name>Eaux de parfum</name>
+        </category>
+        <category>
+            <id>6</id>
+            <name>Eaux de toilette</name>
+        </category>
+        <category>
+            <id>10</id>
+            <name>Hommes</name>
+        </category>
+        <category>
+            <id>3</id>
+            <name>Cosmétiques</name>
+        </category>
+        <category>
+            <id>16</id>
+            <name>Savons &amp; Douche</name>
+        </category>
+        <category>
+            <id>17</id>
+            <name>Senteurs maison</name>
+        </category>
+        <category>
+            <id>1</id>
+            <name>Coffrets et Trousses</name>
+        </category>
+        <category>
+            <id>11</id>
+            <name>Cadeaux</name>
+        </category>
+    </categories>
+    <imageBase>http://www.fragonard.com</imageBase>
+    <name>Fragonard</name>
+    <products>
+        <product>
+            <categoryId>13</categoryId>
+            <id>241</id>
+            <items>
+                <item>
+                    <artNumber>F0120-033</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3200</id>
+                    <images>
+                        <image>/products_images/m2000032000007.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 120 ml</name>
+                    <price>85.0</price>
+                </item>
+                <item>
+                    <artNumber>F0060-033</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3199</id>
+                    <images>
+                        <image>/products_images/m2000031990002.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 60 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>F0030-033</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3198</id>
+                    <images>
+                        <image>/products_images/m2000031980003.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 30 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Frivole</name>
+        </product>
+        <product>
+            <categoryId>13</categoryId>
+            <id>185</id>
+            <items>
+                <item>
+                    <artNumber>F0120-032</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2826</id>
+                    <images>
+                        <image>/products_images/m2000028260002.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 120 ml</name>
+                    <price>85.0</price>
+                </item>
+                <item>
+                    <artNumber>F0060-032</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2825</id>
+                    <images/>
+                    <name>Vaporisateur alu dor&amp;eacute; 60 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>F0030-032</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2824</id>
+                    <images>
+                        <image>/products_images/m2000028240004.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 30 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Etoile</name>
+        </product>
+        <product>
+            <categoryId>13</categoryId>
+            <id>112</id>
+            <items>
+                <item>
+                    <artNumber>F0120-DI</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2728</id>
+                    <images>
+                        <image>/products_images/m2000027280001.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 120 ml</name>
+                    <price>85.0</price>
+                </item>
+                <item>
+                    <artNumber>F0060-DI</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2731</id>
+                    <images>
+                        <image>/products_images/m2000027310005.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 60 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>F0030-DI</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2730</id>
+                    <images>
+                        <image>/products_images/m2000027300006.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 30 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Diamant</name>
+        </product>
+        <product>
+            <categoryId>13</categoryId>
+            <id>116</id>
+            <items>
+                <item>
+                    <artNumber>F0120-001</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2696</id>
+                    <images>
+                        <image>/products_images/m2000026960003.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 120 ml</name>
+                    <price>85.0</price>
+                </item>
+                <item>
+                    <artNumber>F0060-001</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2699</id>
+                    <images>
+                        <image>/products_images/m2000026990000.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 60 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>F0030-001</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2698</id>
+                    <images>
+                        <image>/products_images/m2000026980001.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 30 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Fragonard</name>
+        </product>
+        <product>
+            <categoryId>13</categoryId>
+            <id>114</id>
+            <items>
+                <item>
+                    <artNumber>F0120-031</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2700</id>
+                    <images>
+                        <image>/products_images/m2000027000005.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 120 ml</name>
+                    <price>85.0</price>
+                </item>
+                <item>
+                    <artNumber>F0060-031</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2703</id>
+                    <images>
+                        <image>/products_images/m2000027030002.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 60 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>F0030-031</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2702</id>
+                    <images>
+                        <image>/products_images/m2000027020003.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 30 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Eclat</name>
+        </product>
+        <product>
+            <categoryId>13</categoryId>
+            <id>115</id>
+            <items>
+                <item>
+                    <artNumber>F0120-003</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2704</id>
+                    <images>
+                        <image>/products_images/m2000027040001.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 120 ml</name>
+                    <price>85.0</price>
+                </item>
+                <item>
+                    <artNumber>F0060-003</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2707</id>
+                    <images>
+                        <image>/products_images/m2000027070008.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 60 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>F0030-003</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2706</id>
+                    <images>
+                        <image>/products_images/m2000027060009.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 30 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Emilie</name>
+        </product>
+        <product>
+            <categoryId>13</categoryId>
+            <id>117</id>
+            <items>
+                <item>
+                    <artNumber>F0120-030</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2712</id>
+                    <images>
+                        <image>/products_images/m2000027120000.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 120 ml</name>
+                    <price>85.0</price>
+                </item>
+                <item>
+                    <artNumber>F0060-030</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2715</id>
+                    <images>
+                        <image>/products_images/m2000027150007.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 60 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>F0030-030</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2714</id>
+                    <images>
+                        <image>/products_images/m2000027140008.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 30 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Ile d'Amour</name>
+        </product>
+        <product>
+            <categoryId>13</categoryId>
+            <id>110</id>
+            <items>
+                <item>
+                    <artNumber>BEL120</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2732</id>
+                    <images>
+                        <image>/products_images/m2000027320004.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 120 ml</name>
+                    <price>85.0</price>
+                </item>
+                <item>
+                    <artNumber>BEL060</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2735</id>
+                    <images>
+                        <image>/products_images/m2000027350001.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 60 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>BEL030</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2734</id>
+                    <images>
+                        <image>/products_images/m2000027340002.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 30 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Belle de nuit</name>
+        </product>
+        <product>
+            <categoryId>13</categoryId>
+            <id>118</id>
+            <items>
+                <item>
+                    <artNumber>F0120-JB</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2736</id>
+                    <images>
+                        <image>/products_images/m2000027360000.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 120 ml</name>
+                    <price>85.0</price>
+                </item>
+                <item>
+                    <artNumber>F0060-JB</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2739</id>
+                    <images>
+                        <image>/products_images/m2000027390007.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 60 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>F0030-JB</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2738</id>
+                    <images>
+                        <image>/products_images/m2000027380008.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 30 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Juste un Baiser</name>
+        </product>
+        <product>
+            <categoryId>13</categoryId>
+            <id>238</id>
+            <items>
+                <item>
+                    <artNumber>F0120-BC</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3188</id>
+                    <images>
+                        <image>/products_images/m2000031880006.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 120 ml</name>
+                    <price>85.0</price>
+                </item>
+                <item>
+                    <artNumber>F0060-BC</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3187</id>
+                    <images>
+                        <image>/products_images/m2000031870007.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 60 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>F0030-BC</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Parfum 76% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3186</id>
+                    <images>
+                        <image>/products_images/m2000031860008.jpg</image>
+                    </images>
+                    <name>Vaporisateur alu dor&amp;eacute; 30 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Belle Chérie</name>
+        </product>
+        <product>
+            <categoryId>4</categoryId>
+            <id>254</id>
+            <items/>
+            <name>Belle de Nuit Intense</name>
+        </product>
+        <product>
+            <categoryId>4</categoryId>
+            <id>37</id>
+            <items/>
+            <name>Sorenza</name>
+        </product>
+        <product>
+            <categoryId>4</categoryId>
+            <id>167</id>
+            <items/>
+            <name>Caresse</name>
+        </product>
+        <product>
+            <categoryId>4</categoryId>
+            <id>29</id>
+            <items/>
+            <name>Billet Doux</name>
+        </product>
+        <product>
+            <categoryId>4</categoryId>
+            <id>35</id>
+            <items>
+                <item>
+                    <artNumber>SOL100</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2620</id>
+                    <images>
+                        <image>/products_images/m2000026200000.jpg</image>
+                    </images>
+                    <name>Vaporisateur 100 ml</name>
+                    <price>45.0</price>
+                </item>
+                <item>
+                    <artNumber>SOL050</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2621</id>
+                    <images>
+                        <image>/products_images/m2000026210009.jpg</image>
+                    </images>
+                    <name>Vaporisateur 50 ml</name>
+                    <price>33.0</price>
+                </item>
+            </items>
+            <name>Soleil</name>
+        </product>
+        <product>
+            <categoryId>4</categoryId>
+            <id>33</id>
+            <items>
+                <item>
+                    <artNumber>GSOL100</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2622</id>
+                    <images>
+                        <image>/products_images/m2000026220008.jpg</image>
+                    </images>
+                    <name>Vaporisateur 100 ml</name>
+                    <price>45.0</price>
+                </item>
+                <item>
+                    <artNumber>GSOL050</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2623</id>
+                    <images>
+                        <image>/products_images/m2000026230007.jpg</image>
+                    </images>
+                    <name>Vaporisateur 50 ml</name>
+                    <price>33.0</price>
+                </item>
+            </items>
+            <name>Grain de Soleil</name>
+        </product>
+        <product>
+            <categoryId>4</categoryId>
+            <id>269</id>
+            <items>
+                <item>
+                    <artNumber>JFB201</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Parfumée</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3279</id>
+                    <images>
+                        <image>/products_images/m2000032790007.jpg</image>
+                    </images>
+                    <name>Laurier Rose - C&amp;egrave;dre 200 g</name>
+                    <price>26.0</price>
+                </item>
+                <item>
+                    <artNumber>JFB202</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Parfumée</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3283</id>
+                    <images>
+                        <image>/products_images/m2000032830000.jpg</image>
+                    </images>
+                    <name>Menthe - Basilic 200 g</name>
+                    <price>26.0</price>
+                </item>
+                <item>
+                    <artNumber>JFB204</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Parfumée</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3287</id>
+                    <images>
+                        <image>/products_images/m2000032870006.jpg</image>
+                    </images>
+                    <name>Gingembre - v&amp;eacute;tiver 200 g</name>
+                    <price>26.0</price>
+                </item>
+                <item>
+                    <artNumber>JFD201</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Diffuseurs d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3278</id>
+                    <images>
+                        <image>/products_images/m2000032780008.jpg</image>
+                    </images>
+                    <name>Laurier Rose - C&amp;egrave;dre 200ml + 10 b&amp;acirc;tonnets</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JFD202</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Diffuseurs d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3282</id>
+                    <images>
+                        <image>/products_images/m2000032820001.jpg</image>
+                    </images>
+                    <name>Menthe - Basilic 200ml + 10 b&amp;acirc;tonnets</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JFD204</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Diffuseurs d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3286</id>
+                    <images>
+                        <image>/products_images/m2000032860007.jpg</image>
+                    </images>
+                    <name>Gingembre - v&amp;eacute;tiver 200ml + 10 b&amp;acirc;tonnets</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JF051</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3280</id>
+                    <images>
+                        <image>/products_images/m2000032800003.jpg</image>
+                    </images>
+                    <name>Tilleul-C&amp;eacute;drat Vaporisateur 50 ml</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JF052</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3284</id>
+                    <images>
+                        <image>/products_images/m2000032840009.jpg</image>
+                    </images>
+                    <name>Jasmin - Perle de th&amp;eacute; Vaporisateur 50 ml</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JF054</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3288</id>
+                    <images>
+                        <image>/products_images/m2000032880005.jpg</image>
+                    </images>
+                    <name>H&amp;eacute;liotrope - Gingembre Vaporisateur 50 ml</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>70236</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3324</id>
+                    <images>
+                        <image>/products_images/m2000033240006.jpg</image>
+                    </images>
+                    <name>Porte savon Tilleul C&amp;eacute;drat</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>70267</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3325</id>
+                    <images>
+                        <image>/products_images/m2000033250005.jpg</image>
+                    </images>
+                    <name>Porte savon Jasmin Perle de Th&amp;eacute;</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>70243</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3326</id>
+                    <images>
+                        <image>/products_images/m2000033260004.jpg</image>
+                    </images>
+                    <name>Porte savon H&amp;eacute;liotrope Gingembre</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>JFS151</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3281</id>
+                    <images>
+                        <image>/products_images/m2000032810002.jpg</image>
+                    </images>
+                    <name>150 g Tilleul-C&amp;eacute;drat</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>JFS152</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3285</id>
+                    <images>
+                        <image>/products_images/m2000032850008.jpg</image>
+                    </images>
+                    <name>150 g Jasmin - Perle de th&amp;eacute;</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>JFS154</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3289</id>
+                    <images>
+                        <image>/products_images/m2000032890004.jpg</image>
+                    </images>
+                    <name>150 g H&amp;eacute;liotrope - Gingembre</name>
+                    <price>6.0</price>
+                </item>
+            </items>
+            <name>Le Jardin de Fragonard</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>147</id>
+            <items/>
+            <name>Belle de Soleil</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>75</id>
+            <items/>
+            <name>Maman Chérie</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>51</id>
+            <items>
+                <item>
+                    <artNumber>EDB600</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2938</id>
+                    <images>
+                        <image>/products_images/m2000029380006.jpg</image>
+                    </images>
+                    <name>Bidon recharge Aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+            </items>
+            <name>Eau du Bonheur</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>231</id>
+            <items>
+                <item>
+                    <artNumber>BC600</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3184</id>
+                    <images>
+                        <image>/products_images/m2000031840000.jpg</image>
+                    </images>
+                    <name>Bidon recharge Aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+            </items>
+            <name>Belle Chérie</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>258</id>
+            <items/>
+            <name>MUGUET</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>81</id>
+            <items>
+                <item>
+                    <artNumber>RI600</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2891</id>
+                    <images>
+                        <image>/products_images/m2000028910006.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+            </items>
+            <name>Rêve Indien</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>49</id>
+            <items>
+                <item>
+                    <artNumber>DI600</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2892</id>
+                    <images>
+                        <image>/products_images/m2000028920005.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+            </items>
+            <name>Diamant</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>41</id>
+            <items>
+                <item>
+                    <artNumber>BEL600</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2904</id>
+                    <images>
+                        <image>/products_images/m2000029040009.jpg</image>
+                    </images>
+                    <name>Bidon recharge 600 ml</name>
+                    <price>57.0</price>
+                </item>
+            </items>
+            <name>Belle de nuit</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>71</id>
+            <items>
+                <item>
+                    <artNumber>JB600</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3129</id>
+                    <images/>
+                    <name>Bidon Recharge 600 ml</name>
+                    <price>57.0</price>
+                </item>
+            </items>
+            <name>Juste un Baiser</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>228</id>
+            <items/>
+            <name>Belle d'Avril</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>205</id>
+            <items/>
+            <name>Premier Péché</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>178</id>
+            <items/>
+            <name>VRAI</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>65</id>
+            <items>
+                <item>
+                    <artNumber>F2600-001</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2461</id>
+                    <images>
+                        <image>/products_images/m2000024610009.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>F2200-001</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2625</id>
+                    <images>
+                        <image>/products_images/m2000026250005.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Fragonard</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>184</id>
+            <items>
+                <item>
+                    <artNumber>F2600-032</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2819</id>
+                    <images>
+                        <image>/products_images/m2000028190002.jpg</image>
+                    </images>
+                    <name>Bidon 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>F2200-032</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2817</id>
+                    <images>
+                        <image>/products_images/m2000028170004.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Etoile</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>57</id>
+            <items>
+                <item>
+                    <artNumber>F2600-003</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2465</id>
+                    <images>
+                        <image>/products_images/m2000024650005.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>F2200-003</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2629</id>
+                    <images>
+                        <image>/products_images/m2000026290001.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Emilie</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>242</id>
+            <items>
+                <item>
+                    <artNumber>F2600-033</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3196</id>
+                    <images>
+                        <image>/products_images/m2000031960005.jpg</image>
+                    </images>
+                    <name>bidon recharge 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>F2200-033</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3195</id>
+                    <images>
+                        <image>/products_images/m2000031950006.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Frivole</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>55</id>
+            <items>
+                <item>
+                    <artNumber>F2600-031</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2463</id>
+                    <images>
+                        <image>/products_images/m2000024630007.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>F2200-031</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2627</id>
+                    <images>
+                        <image>/products_images/m2000026270003.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Eclat</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>77</id>
+            <items>
+                <item>
+                    <artNumber>F2600-025</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2473</id>
+                    <images>
+                        <image>/products_images/m2000024730004.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>F2200-025</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2637</id>
+                    <images>
+                        <image>/products_images/m2000026370000.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Miranda</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>69</id>
+            <items>
+                <item>
+                    <artNumber>F2600-030</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2469</id>
+                    <images>
+                        <image>/products_images/m2000024690001.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>F2200-030</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2633</id>
+                    <images>
+                        <image>/products_images/m2000026330004.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Ile d'Amour</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>211</id>
+            <items>
+                <item>
+                    <artNumber>N1616</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3011</id>
+                    <images>
+                        <image>/products_images/m2000030110005.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1216</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3010</id>
+                    <images>
+                        <image>/products_images/m2000030100006.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Vétiver</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>213</id>
+            <items>
+                <item>
+                    <artNumber>N1617</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3016</id>
+                    <images>
+                        <image>/products_images/m2000030160000.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1217</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3015</id>
+                    <images>
+                        <image>/products_images/m2000030150001.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Patchouli</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>215</id>
+            <items>
+                <item>
+                    <artNumber>N1615</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3019</id>
+                    <images>
+                        <image>/products_images/m2000030190007.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1215</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3018</id>
+                    <images>
+                        <image>/products_images/m2000030180008.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Santal</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>209</id>
+            <items>
+                <item>
+                    <artNumber>N1618</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3008</id>
+                    <images>
+                        <image>/products_images/m2000030080001.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1218</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3007</id>
+                    <images>
+                        <image>/products_images/m2000030070002.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Cèdre</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>61</id>
+            <items>
+                <item>
+                    <artNumber>N1612</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2500</id>
+                    <images>
+                        <image>/products_images/m2000025000007.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1212</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2645</id>
+                    <images>
+                        <image>/products_images/m2000026450009.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Fleur d'Oranger</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>83</id>
+            <items>
+                <item>
+                    <artNumber>N1610</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2488</id>
+                    <images>
+                        <image>/products_images/m2000024880006.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1210</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2641</id>
+                    <images>
+                        <image>/products_images/m2000026410003.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Rose de Mai</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>85</id>
+            <items>
+                <item>
+                    <artNumber>N1607</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2506</id>
+                    <images>
+                        <image>/products_images/m2000025060001.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1207</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2647</id>
+                    <images>
+                        <image>/products_images/m2000026470007.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Verveine</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>45</id>
+            <items/>
+            <name>Cerisier en Fleurs</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>63</id>
+            <items>
+                <item>
+                    <artNumber>N1614</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2518</id>
+                    <images>
+                        <image>/products_images/m2000025180006.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1214</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2808</id>
+                    <images>
+                        <image>/products_images/m2000028080006.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Fleur de Vanille</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>59</id>
+            <items>
+                <item>
+                    <artNumber>N1613</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2529</id>
+                    <images>
+                        <image>/products_images/m2000025290002.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1213</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2657</id>
+                    <images>
+                        <image>/products_images/m2000026570004.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Figuier Fleur</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>73</id>
+            <items>
+                <item>
+                    <artNumber>N1604</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2524</id>
+                    <images>
+                        <image>/products_images/m2000025240007.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1204</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2653</id>
+                    <images>
+                        <image>/products_images/m2000026530008.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Lavande</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>233</id>
+            <items/>
+            <name>Moment Volé</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>237</id>
+            <items/>
+            <name>VIOLETTE</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>154</id>
+            <items/>
+            <name>Marché aux fleurs</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>155</id>
+            <items/>
+            <name>Bleu riviera</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>203</id>
+            <items/>
+            <name>Mimosa</name>
+        </product>
+        <product>
+            <categoryId>6</categoryId>
+            <id>256</id>
+            <items>
+                <item>
+                    <artNumber>MA050</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3154</id>
+                    <images>
+                        <image>/products_images/m2000031540009.jpg</image>
+                    </images>
+                    <name>Mademoiselle Amour Vaporisateur 50 ml</name>
+                    <price>22.0</price>
+                </item>
+                <item>
+                    <artNumber>MFR050</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3247</id>
+                    <images>
+                        <image>/products_images/m2000032470008.jpg</image>
+                    </images>
+                    <name>Mademoiselle Fragonard Riviera Vaporisateur 50 ml</name>
+                    <price>22.0</price>
+                </item>
+                <item>
+                    <artNumber>MFP050</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3248</id>
+                    <images>
+                        <image>/products_images/m2000032480007.jpg</image>
+                    </images>
+                    <name>Mademoiselle Fragonard Paris Vaporisateur 50 ml</name>
+                    <price>22.0</price>
+                </item>
+            </items>
+            <name>Trousse</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>253</id>
+            <items>
+                <item>
+                    <artNumber>H8620</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3241</id>
+                    <images>
+                        <image>/products_images/m2000032410004.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>H8220</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3242</id>
+                    <images>
+                        <image>/products_images/m2000032420003.jpg</image>
+                    </images>
+                    <name>Vaporisateur aluminium rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Confidentiel</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>243</id>
+            <items>
+                <item>
+                    <artNumber>H8619</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3203</id>
+                    <images>
+                        <image>/products_images/m2000032030004.jpg</image>
+                    </images>
+                    <name>Bidon alu recharge 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>H8219</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3202</id>
+                    <images>
+                        <image>/products_images/m2000032020005.jpg</image>
+                    </images>
+                    <name>Vaporisateur aluminium rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Toujours Fidèle</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>221</id>
+            <items>
+                <item>
+                    <artNumber>H8616</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3075</id>
+                    <images>
+                        <image>/products_images/m2000030750003.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>H8216</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3074</id>
+                    <images/>
+                    <name>Vaporisateur aluminium rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Désert</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>223</id>
+            <items/>
+            <name>Sieste</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>91</id>
+            <items>
+                <item>
+                    <artNumber>H8612</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3040</id>
+                    <images>
+                        <image>/products_images/m2000030400007.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>H8212</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3034</id>
+                    <images>
+                        <image>/products_images/m2000030340006.jpg</image>
+                    </images>
+                    <name>Vaporisateur aluminium rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Beau Gosse</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>93</id>
+            <items>
+                <item>
+                    <artNumber>H8608</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3044</id>
+                    <images>
+                        <image>/products_images/m2000030440003.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>H8208</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3038</id>
+                    <images>
+                        <image>/products_images/m2000030380002.jpg</image>
+                    </images>
+                    <name>Vaporisateur aluminium rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Concerto</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>94</id>
+            <items>
+                <item>
+                    <artNumber>H8603</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3043</id>
+                    <images>
+                        <image>/products_images/m2000030430004.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>H8203</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3037</id>
+                    <images>
+                        <image>/products_images/m2000030370003.jpg</image>
+                    </images>
+                    <name>Vaporisateur aluminium rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Eau de Hongrie</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>90</id>
+            <items>
+                <item>
+                    <artNumber>H8614</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3041</id>
+                    <images>
+                        <image>/products_images/m2000030410006.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>H8214</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3035</id>
+                    <images>
+                        <image>/products_images/m2000030350005.jpg</image>
+                    </images>
+                    <name>Vaporisateur aluminium rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>F !</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>97</id>
+            <items>
+                <item>
+                    <artNumber>H8607</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3042</id>
+                    <images>
+                        <image>/products_images/m2000030420005.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>57.0</price>
+                </item>
+                <item>
+                    <artNumber>H8207</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3036</id>
+                    <images>
+                        <image>/products_images/m2000030360004.jpg</image>
+                    </images>
+                    <name>Vaporisateur aluminium rechargeable 200 ml</name>
+                    <price>37.0</price>
+                </item>
+            </items>
+            <name>Suivez-Moi</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>92</id>
+            <items/>
+            <name>Cologne Grand Luxe</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>95</id>
+            <items/>
+            <name>Papa Chéri</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>217</id>
+            <items>
+                <item>
+                    <artNumber>N1618</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3008</id>
+                    <images>
+                        <image>/products_images/m2000030080001.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1218</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3007</id>
+                    <images>
+                        <image>/products_images/m2000030070002.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Cèdre</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>218</id>
+            <items>
+                <item>
+                    <artNumber>N1616</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3011</id>
+                    <images>
+                        <image>/products_images/m2000030110005.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1216</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3010</id>
+                    <images>
+                        <image>/products_images/m2000030100006.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Vétiver</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>219</id>
+            <items>
+                <item>
+                    <artNumber>N1617</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3016</id>
+                    <images>
+                        <image>/products_images/m2000030160000.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1217</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3015</id>
+                    <images>
+                        <image>/products_images/m2000030150001.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Patchouli</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>220</id>
+            <items>
+                <item>
+                    <artNumber>N1615</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3019</id>
+                    <images>
+                        <image>/products_images/m2000030190007.jpg</image>
+                    </images>
+                    <name>Bidon recharge aluminium 600 ml</name>
+                    <price>55.0</price>
+                </item>
+                <item>
+                    <artNumber>N1215</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3018</id>
+                    <images>
+                        <image>/products_images/m2000030180008.jpg</image>
+                    </images>
+                    <name>Vaporisateur rechargeable 200 ml</name>
+                    <price>34.0</price>
+                </item>
+            </items>
+            <name>Santal</name>
+        </product>
+        <product>
+            <categoryId>10</categoryId>
+            <id>234</id>
+            <items/>
+            <name>Eau du Séducteur</name>
+        </product>
+        <product>
+            <categoryId>3</categoryId>
+            <id>26</id>
+            <items>
+                <item>
+                    <artNumber>VH240</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Huile de beauté corps et cheveux</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3322</id>
+                    <images>
+                        <image>/products_images/m2000033220008.jpg</image>
+                    </images>
+                    <name>Flacon pompe 240 ml</name>
+                    <price>49.0</price>
+                </item>
+            </items>
+            <name>VRAI</name>
+        </product>
+        <product>
+            <categoryId>3</categoryId>
+            <id>28</id>
+            <items/>
+            <name>Soins Essentiels</name>
+        </product>
+        <product>
+            <categoryId>3</categoryId>
+            <id>157</id>
+            <items/>
+            <name>Sels de bain</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>190</id>
+            <items/>
+            <name>Savon en forme de canard</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>183</id>
+            <items/>
+            <name>Savon Coeur</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>135</id>
+            <items>
+                <item>
+                    <artNumber>4S2062</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Coffret 4 savons invités</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3267</id>
+                    <images>
+                        <image>/products_images/m2000032670002.jpg</image>
+                    </images>
+                    <name>Savons Muguet - Bo&amp;icirc;te 4 x 50 g</name>
+                    <price>12.0</price>
+                </item>
+                <item>
+                    <artNumber>4S2053</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Coffret 4 savons invités</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3003</id>
+                    <images>
+                        <image>/products_images/m2000030030006.jpg</image>
+                    </images>
+                    <name>Savons fleuris - Bo&amp;icirc;te 4 x 50 g</name>
+                    <price>11.0</price>
+                </item>
+                <item>
+                    <artNumber>4S2057</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Coffret 4 savons invités</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3107</id>
+                    <images>
+                        <image>/products_images/m2000031070001.jpg</image>
+                    </images>
+                    <name>Fleur d'Oranger - Bo&amp;icirc;te 4 x 50 g</name>
+                    <price>11.0</price>
+                </item>
+                <item>
+                    <artNumber>8693</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3207</id>
+                    <images>
+                        <image>/products_images/m2000032070000.jpg</image>
+                    </images>
+                    <name>Porte savon Fleurs</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-CH</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2679</id>
+                    <images/>
+                    <name>140 g Ch&amp;egrave;vrefeuille</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-FO</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2681</id>
+                    <images/>
+                    <name>140 g Fleur d'oranger</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-JA</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2683</id>
+                    <images/>
+                    <name>140 g Jasmin</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-LA</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2684</id>
+                    <images/>
+                    <name>140 g Lavande</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-MA</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2685</id>
+                    <images/>
+                    <name>140 g Madame</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-MIE</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2686</id>
+                    <images/>
+                    <name>140 g Miel</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-MO</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2688</id>
+                    <images/>
+                    <name>140 g Monsieur</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-RO</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2689</id>
+                    <images/>
+                    <name>140 g Rose</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-VA</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2690</id>
+                    <images/>
+                    <name>140 g Vanille</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-VE</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2691</id>
+                    <images>
+                        <image>/products_images/m2000026910008.jpg</image>
+                    </images>
+                    <name>140 g Verveine</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-VIO</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3182</id>
+                    <images>
+                        <image>/products_images/m2000031820002.jpg</image>
+                    </images>
+                    <name>140 g Violette</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S4140-MI</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3189</id>
+                    <images/>
+                    <name>140 g Mimosa</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>EDSS140</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3190</id>
+                    <images>
+                        <image>/products_images/m2000031900001.jpg</image>
+                    </images>
+                    <name>140 g Eau du S&amp;eacute;ducteur</name>
+                    <price>4.0</price>
+                </item>
+                <item>
+                    <artNumber>S5140-MV2</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3191</id>
+                    <images>
+                        <image>/products_images/m2000031910000.jpg</image>
+                    </images>
+                    <name>140 g Moment Vol&amp;eacute;</name>
+                    <price>4.0</price>
+                </item>
+            </items>
+            <name>Savon Galet</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>138</id>
+            <items>
+                <item>
+                    <artNumber>S3300-2</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2692</id>
+                    <images>
+                        <image>/products_images/m2000026920007.jpg</image>
+                    </images>
+                    <name>300g Huile d'abricot parfum cl&amp;eacute;mentine</name>
+                    <price>8.0</price>
+                </item>
+                <item>
+                    <artNumber>S3300-3</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2693</id>
+                    <images>
+                        <image>/products_images/m2000026930006.jpg</image>
+                    </images>
+                    <name>300g Huile d'amande douce parfum rose</name>
+                    <price>8.0</price>
+                </item>
+            </items>
+            <name>Savons aux huiles végétales</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>139</id>
+            <items>
+                <item>
+                    <artNumber>AS3</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Glycérinés</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2674</id>
+                    <images/>
+                    <name>125g Fleur d'oranger</name>
+                    <price>5.0</price>
+                </item>
+                <item>
+                    <artNumber>AS4</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Glycérinés</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2675</id>
+                    <images/>
+                    <name>125g Lavande</name>
+                    <price>5.0</price>
+                </item>
+                <item>
+                    <artNumber>AS2</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Glycérinés</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2676</id>
+                    <images/>
+                    <name>125g Rose</name>
+                    <price>5.0</price>
+                </item>
+            </items>
+            <name>Savons transparents</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>136</id>
+            <items/>
+            <name>Savonnettes diamantées</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>137</id>
+            <items/>
+            <name>Savonnettes en forme de Rose</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>164</id>
+            <items/>
+            <name>Savons en forme d'oeuf</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>159</id>
+            <items/>
+            <name>Sels de bain</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>180</id>
+            <items>
+                <item>
+                    <artNumber>NG2510</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2489</id>
+                    <images>
+                        <image>/products_images/m2000024890005.jpg</image>
+                    </images>
+                    <name>Rose de Mai Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>NG2512</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2501</id>
+                    <images>
+                        <image>/products_images/m2000025010006.jpg</image>
+                    </images>
+                    <name>Fleur d'Oranger Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>NG257</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2507</id>
+                    <images>
+                        <image>/products_images/m2000025070000.jpg</image>
+                    </images>
+                    <name>Verveine Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>NG2514</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2519</id>
+                    <images>
+                        <image>/products_images/m2000025190005.jpg</image>
+                    </images>
+                    <name>Fleurs de Vanille Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>NG2517</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3023</id>
+                    <images>
+                        <image>/products_images/m2000030230000.jpg</image>
+                    </images>
+                    <name>Patchouli Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>NG2515</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3024</id>
+                    <images>
+                        <image>/products_images/m2000030240009.jpg</image>
+                    </images>
+                    <name>Santal Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>NG2516</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3025</id>
+                    <images>
+                        <image>/products_images/m2000030250008.jpg</image>
+                    </images>
+                    <name>V&amp;eacute;tiver Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>NG2518</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3026</id>
+                    <images>
+                        <image>/products_images/m2000030260007.jpg</image>
+                    </images>
+                    <name>C&amp;egrave;dre Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+            </items>
+            <name>Gels douche Les Naturelles</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>181</id>
+            <items>
+                <item>
+                    <artNumber>HG2512</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3047</id>
+                    <images>
+                        <image>/products_images/m2000030470000.jpg</image>
+                    </images>
+                    <name>Beau Gosse Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>HG2514</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3048</id>
+                    <images>
+                        <image>/products_images/m2000030480009.jpg</image>
+                    </images>
+                    <name>F! Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>HG257</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3049</id>
+                    <images>
+                        <image>/products_images/m2000030490008.jpg</image>
+                    </images>
+                    <name>Suivez-Moi Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>HG253</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3050</id>
+                    <images>
+                        <image>/products_images/m2000030500004.jpg</image>
+                    </images>
+                    <name>Eau de Hongrie Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>HG258</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3051</id>
+                    <images>
+                        <image>/products_images/m2000030510003.jpg</image>
+                    </images>
+                    <name>Concerto Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>HG2516</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3082</id>
+                    <images/>
+                    <name>D&amp;eacute;sert Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+                <item>
+                    <artNumber>HG2519</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Gel douche parfumé</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3204</id>
+                    <images>
+                        <image>/products_images/m2000032040003.jpg</image>
+                    </images>
+                    <name>Toujours Fid&amp;egrave;le Flacon 250 ml</name>
+                    <price>10.0</price>
+                </item>
+            </items>
+            <name>Gels douche Homme</name>
+        </product>
+        <product>
+            <categoryId>16</categoryId>
+            <id>270</id>
+            <items>
+                <item>
+                    <artNumber>JFB201</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Parfumée</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3279</id>
+                    <images>
+                        <image>/products_images/m2000032790007.jpg</image>
+                    </images>
+                    <name>Laurier Rose - C&amp;egrave;dre 200 g</name>
+                    <price>26.0</price>
+                </item>
+                <item>
+                    <artNumber>JFB202</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Parfumée</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3283</id>
+                    <images>
+                        <image>/products_images/m2000032830000.jpg</image>
+                    </images>
+                    <name>Menthe - Basilic 200 g</name>
+                    <price>26.0</price>
+                </item>
+                <item>
+                    <artNumber>JFB204</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Parfumée</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3287</id>
+                    <images>
+                        <image>/products_images/m2000032870006.jpg</image>
+                    </images>
+                    <name>Gingembre - v&amp;eacute;tiver 200 g</name>
+                    <price>26.0</price>
+                </item>
+                <item>
+                    <artNumber>JFD201</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Diffuseurs d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3278</id>
+                    <images>
+                        <image>/products_images/m2000032780008.jpg</image>
+                    </images>
+                    <name>Laurier Rose - C&amp;egrave;dre 200ml + 10 b&amp;acirc;tonnets</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JFD202</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Diffuseurs d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3282</id>
+                    <images>
+                        <image>/products_images/m2000032820001.jpg</image>
+                    </images>
+                    <name>Menthe - Basilic 200ml + 10 b&amp;acirc;tonnets</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JFD204</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Diffuseurs d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3286</id>
+                    <images>
+                        <image>/products_images/m2000032860007.jpg</image>
+                    </images>
+                    <name>Gingembre - v&amp;eacute;tiver 200ml + 10 b&amp;acirc;tonnets</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JF051</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3280</id>
+                    <images>
+                        <image>/products_images/m2000032800003.jpg</image>
+                    </images>
+                    <name>Tilleul-C&amp;eacute;drat Vaporisateur 50 ml</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JF052</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3284</id>
+                    <images>
+                        <image>/products_images/m2000032840009.jpg</image>
+                    </images>
+                    <name>Jasmin - Perle de th&amp;eacute; Vaporisateur 50 ml</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JF054</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3288</id>
+                    <images>
+                        <image>/products_images/m2000032880005.jpg</image>
+                    </images>
+                    <name>H&amp;eacute;liotrope - Gingembre Vaporisateur 50 ml</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>70236</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3324</id>
+                    <images>
+                        <image>/products_images/m2000033240006.jpg</image>
+                    </images>
+                    <name>Porte savon Tilleul C&amp;eacute;drat</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>70267</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3325</id>
+                    <images>
+                        <image>/products_images/m2000033250005.jpg</image>
+                    </images>
+                    <name>Porte savon Jasmin Perle de Th&amp;eacute;</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>70243</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3326</id>
+                    <images>
+                        <image>/products_images/m2000033260004.jpg</image>
+                    </images>
+                    <name>Porte savon H&amp;eacute;liotrope Gingembre</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>JFS151</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3281</id>
+                    <images>
+                        <image>/products_images/m2000032810002.jpg</image>
+                    </images>
+                    <name>150 g Tilleul-C&amp;eacute;drat</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>JFS152</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3285</id>
+                    <images>
+                        <image>/products_images/m2000032850008.jpg</image>
+                    </images>
+                    <name>150 g Jasmin - Perle de th&amp;eacute;</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>JFS154</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3289</id>
+                    <images>
+                        <image>/products_images/m2000032890004.jpg</image>
+                    </images>
+                    <name>150 g H&amp;eacute;liotrope - Gingembre</name>
+                    <price>6.0</price>
+                </item>
+            </items>
+            <name>Le Jardin de Fragonard</name>
+        </product>
+        <product>
+            <categoryId>17</categoryId>
+            <id>207</id>
+            <items/>
+            <name>Diffuseurs d'ambiance</name>
+        </product>
+        <product>
+            <categoryId>17</categoryId>
+            <id>140</id>
+            <items>
+                <item>
+                    <artNumber>BO202</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Pot en biscuit de porcelaine</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2741</id>
+                    <images/>
+                    <name>200 g Brioche</name>
+                    <price>25.0</price>
+                </item>
+                <item>
+                    <artNumber>BO203</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Pot en biscuit de porcelaine</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2742</id>
+                    <images/>
+                    <name>200 g Cannelle orange</name>
+                    <price>25.0</price>
+                </item>
+                <item>
+                    <artNumber>BO212</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Pot en biscuit de porcelaine</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2745</id>
+                    <images/>
+                    <name>200 g Fleur d'oranger</name>
+                    <price>25.0</price>
+                </item>
+                <item>
+                    <artNumber>BO204</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Pot en biscuit de porcelaine</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2746</id>
+                    <images/>
+                    <name>200 g Fleurs blanches</name>
+                    <price>25.0</price>
+                </item>
+                <item>
+                    <artNumber>BO209</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Pot en biscuit de porcelaine</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2747</id>
+                    <images/>
+                    <name>200 g P&amp;ecirc;che de vigne</name>
+                    <price>25.0</price>
+                </item>
+                <item>
+                    <artNumber>BO201</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Pot en biscuit de porcelaine</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2748</id>
+                    <images>
+                        <image>/products_images/m2000027480005.jpg</image>
+                    </images>
+                    <name>200 g Santal</name>
+                    <price>25.0</price>
+                </item>
+                <item>
+                    <artNumber>BO206</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Pot en biscuit de porcelaine</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2749</id>
+                    <images/>
+                    <name>200 g Vanille</name>
+                    <price>25.0</price>
+                </item>
+                <item>
+                    <artNumber>BO207</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Pot en biscuit de porcelaine</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2750</id>
+                    <images/>
+                    <name>200 g Ylang Ylang</name>
+                    <price>25.0</price>
+                </item>
+            </items>
+            <name>Bougies</name>
+        </product>
+        <product>
+            <categoryId>17</categoryId>
+            <id>141</id>
+            <items/>
+            <name>Eaux de maison</name>
+        </product>
+        <product>
+            <categoryId>17</categoryId>
+            <id>271</id>
+            <items>
+                <item>
+                    <artNumber>JFB201</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Parfumée</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3279</id>
+                    <images>
+                        <image>/products_images/m2000032790007.jpg</image>
+                    </images>
+                    <name>Laurier Rose - C&amp;egrave;dre 200 g</name>
+                    <price>26.0</price>
+                </item>
+                <item>
+                    <artNumber>JFB202</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Parfumée</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3283</id>
+                    <images>
+                        <image>/products_images/m2000032830000.jpg</image>
+                    </images>
+                    <name>Menthe - Basilic 200 g</name>
+                    <price>26.0</price>
+                </item>
+                <item>
+                    <artNumber>JFB204</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Bougie Parfumée</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3287</id>
+                    <images>
+                        <image>/products_images/m2000032870006.jpg</image>
+                    </images>
+                    <name>Gingembre - v&amp;eacute;tiver 200 g</name>
+                    <price>26.0</price>
+                </item>
+                <item>
+                    <artNumber>JFD201</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Diffuseurs d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3278</id>
+                    <images>
+                        <image>/products_images/m2000032780008.jpg</image>
+                    </images>
+                    <name>Laurier Rose - C&amp;egrave;dre 200ml + 10 b&amp;acirc;tonnets</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JFD202</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Diffuseurs d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3282</id>
+                    <images>
+                        <image>/products_images/m2000032820001.jpg</image>
+                    </images>
+                    <name>Menthe - Basilic 200ml + 10 b&amp;acirc;tonnets</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JFD204</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Diffuseurs d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3286</id>
+                    <images>
+                        <image>/products_images/m2000032860007.jpg</image>
+                    </images>
+                    <name>Gingembre - v&amp;eacute;tiver 200ml + 10 b&amp;acirc;tonnets</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JF051</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3280</id>
+                    <images>
+                        <image>/products_images/m2000032800003.jpg</image>
+                    </images>
+                    <name>Tilleul-C&amp;eacute;drat Vaporisateur 50 ml</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JF052</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3284</id>
+                    <images>
+                        <image>/products_images/m2000032840009.jpg</image>
+                    </images>
+                    <name>Jasmin - Perle de th&amp;eacute; Vaporisateur 50 ml</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>JF054</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de parfum 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3288</id>
+                    <images>
+                        <image>/products_images/m2000032880005.jpg</image>
+                    </images>
+                    <name>H&amp;eacute;liotrope - Gingembre Vaporisateur 50 ml</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>70236</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3324</id>
+                    <images>
+                        <image>/products_images/m2000033240006.jpg</image>
+                    </images>
+                    <name>Porte savon Tilleul C&amp;eacute;drat</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>70267</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3325</id>
+                    <images>
+                        <image>/products_images/m2000033250005.jpg</image>
+                    </images>
+                    <name>Porte savon Jasmin Perle de Th&amp;eacute;</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>70243</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3326</id>
+                    <images>
+                        <image>/products_images/m2000033260004.jpg</image>
+                    </images>
+                    <name>Porte savon H&amp;eacute;liotrope Gingembre</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>JFS151</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3281</id>
+                    <images>
+                        <image>/products_images/m2000032810002.jpg</image>
+                    </images>
+                    <name>150 g Tilleul-C&amp;eacute;drat</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>JFS152</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3285</id>
+                    <images>
+                        <image>/products_images/m2000032850008.jpg</image>
+                    </images>
+                    <name>150 g Jasmin - Perle de th&amp;eacute;</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>JFS154</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3289</id>
+                    <images>
+                        <image>/products_images/m2000032890004.jpg</image>
+                    </images>
+                    <name>150 g H&amp;eacute;liotrope - Gingembre</name>
+                    <price>6.0</price>
+                </item>
+            </items>
+            <name>Le Jardin de Fragonard</name>
+        </product>
+        <product>
+            <categoryId>1</categoryId>
+            <id>255</id>
+            <items>
+                <item>
+                    <artNumber>MA050</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3154</id>
+                    <images>
+                        <image>/products_images/m2000031540009.jpg</image>
+                    </images>
+                    <name>Mademoiselle Amour Vaporisateur 50 ml</name>
+                    <price>22.0</price>
+                </item>
+                <item>
+                    <artNumber>MFR050</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3247</id>
+                    <images>
+                        <image>/products_images/m2000032470008.jpg</image>
+                    </images>
+                    <name>Mademoiselle Fragonard Riviera Vaporisateur 50 ml</name>
+                    <price>22.0</price>
+                </item>
+                <item>
+                    <artNumber>MFP050</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3248</id>
+                    <images>
+                        <image>/products_images/m2000032480007.jpg</image>
+                    </images>
+                    <name>Mademoiselle Fragonard Paris Vaporisateur 50 ml</name>
+                    <price>22.0</price>
+                </item>
+            </items>
+            <name>Trousse</name>
+        </product>
+        <product>
+            <categoryId>1</categoryId>
+            <id>20</id>
+            <items>
+                <item>
+                    <artNumber>XO005-2</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>5 parfums </value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>2821</id>
+                    <images>
+                        <image>/products_images/m2000028210007.jpg</image>
+                    </images>
+                    <name>Coffret 5 x 2ml</name>
+                    <price>14.0</price>
+                </item>
+            </items>
+            <name>Coffret Féminin</name>
+        </product>
+        <product>
+            <categoryId>1</categoryId>
+            <id>21</id>
+            <items>
+                <item>
+                    <artNumber>X2005-1</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>5 senteurs </value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3139</id>
+                    <images/>
+                    <name>Coffret 5 x 6 ml</name>
+                    <price>14.0</price>
+                </item>
+                <item>
+                    <artNumber>X2005-2</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>5 senteurs </value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3140</id>
+                    <images/>
+                    <name>Coffret 5 x 6 ml</name>
+                    <price>14.0</price>
+                </item>
+            </items>
+            <name>Coffret Masculin</name>
+        </product>
+        <product>
+            <categoryId>1</categoryId>
+            <id>22</id>
+            <items/>
+            <name>Coffret parfums solides</name>
+        </product>
+        <product>
+            <categoryId>1</categoryId>
+            <id>163</id>
+            <items/>
+            <name>Boite pochettes parfumées</name>
+        </product>
+        <product>
+            <categoryId>11</categoryId>
+            <id>257</id>
+            <items/>
+            <name>Duo de Fêtes</name>
+        </product>
+        <product>
+            <categoryId>11</categoryId>
+            <id>196</id>
+            <items>
+                <item>
+                    <artNumber>8693</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3207</id>
+                    <images>
+                        <image>/products_images/m2000032070000.jpg</image>
+                    </images>
+                    <name>Porte savon Fleurs</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>59583</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3266</id>
+                    <images>
+                        <image>/products_images/m2000032660003.jpg</image>
+                    </images>
+                    <name>Porte savon Muguet</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>70236</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3324</id>
+                    <images>
+                        <image>/products_images/m2000033240006.jpg</image>
+                    </images>
+                    <name>Porte savon Tilleul C&amp;eacute;drat</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>70267</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3325</id>
+                    <images>
+                        <image>/products_images/m2000033250005.jpg</image>
+                    </images>
+                    <name>Porte savon Jasmin Perle de Th&amp;eacute;</name>
+                    <price>6.0</price>
+                </item>
+                <item>
+                    <artNumber>70243</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Porte savon</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3326</id>
+                    <images>
+                        <image>/products_images/m2000033260004.jpg</image>
+                    </images>
+                    <name>Porte savon H&amp;eacute;liotrope Gingembre</name>
+                    <price>6.0</price>
+                </item>
+            </items>
+            <name>Déco</name>
+        </product>
+        <product>
+            <categoryId>11</categoryId>
+            <id>246</id>
+            <items/>
+            <name>Trésors d'un musée - Objet</name>
+        </product>
+        <product>
+            <categoryId>11</categoryId>
+            <id>247</id>
+            <items>
+                <item>
+                    <artNumber>MV100</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Eau de toilette 80% vol</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3155</id>
+                    <images>
+                        <image>/products_images/m2000031550008.jpg</image>
+                    </images>
+                    <name>Moment Vol&amp;eacute; Vaporisateur rechargeable 100 ml</name>
+                    <price>28.0</price>
+                </item>
+                <item>
+                    <artNumber>EDSS140</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Savon Individuel</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3190</id>
+                    <images>
+                        <image>/products_images/m2000031900001.jpg</image>
+                    </images>
+                    <name>140 g Eau du S&amp;eacute;ducteur</name>
+                    <price>4.0</price>
+                </item>
+            </items>
+            <name>Trésors d'un musée - Parfumerie</name>
+        </product>
+        <product>
+            <categoryId>11</categoryId>
+            <id>248</id>
+            <items>
+                <item>
+                    <artNumber>75552</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>A la table du bois dormant</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3308</id>
+                    <images>
+                        <image>/products_images/m2000033080008.jpg</image>
+                    </images>
+                    <name>Livre A la Table du Bois Dormant en fran&amp;ccedil;ais</name>
+                    <price>24.0</price>
+                </item>
+                <item>
+                    <artNumber>1324</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Les recettes d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3305</id>
+                    <images>
+                        <image>/products_images/m2000033050001.jpg</image>
+                    </images>
+                    <name>Livre Les recettes d'H&amp;eacute;l&amp;egrave;ne en fran&amp;ccedil;ais</name>
+                    <price>15.0</price>
+                </item>
+                <item>
+                    <artNumber>9889</artNumber>
+                    <attributes>
+                        <attribute>
+                            <type>type</type>
+                            <value>Trésor d\</value>
+                        </attribute>
+                    </attributes>
+                    <currency>eu</currency>
+                    <id>3221</id>
+                    <images>
+                        <image>/products_images/m2000032210000.jpg</image>
+                    </images>
+                    <name>Livre tr&amp;eacute;sors d'un mus&amp;eacute;e en fran&amp;ccedil;ais</name>
+                    <price>26.0</price>
+                </item>
+            </items>
+            <name>Livres</name>
+        </product>
+    </products>
+</catalog>

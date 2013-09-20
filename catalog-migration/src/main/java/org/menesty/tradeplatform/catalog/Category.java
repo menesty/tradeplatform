@@ -1,9 +1,12 @@
 package org.menesty.tradeplatform.catalog;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 import java.util.List;
 
-@XmlType
+@XmlRootElement(name = "category")
 public class Category {
     private Long id;
 
@@ -26,7 +29,8 @@ public class Category {
     public void setName(String name) {
         this.name = name;
     }
-
+    @XmlElementWrapper(name = "categories")
+    @XmlElement(name = "category")
     public List<Category> getCategories() {
         return categories;
     }
